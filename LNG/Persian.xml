@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SQLi_Dumper>
+  <Section Name="MainForm.lvwStatistics">
+    <Key Name="0" Value="توضیحات" />
+    <Key Name="1" Value="Value" />
+  </Section>
+  <Section Name="MainForm.tabFileInc">
+    <Key Name="0" Value="لینوکس" />
+    <Key Name="1" Value="ویندوز" />
+  </Section>
+  <Section Name="MainForm.tabSQLi">
+    <Key Name="0" Value="عمومی" />
+    <Key Name="1" Value="Unions Vectors " />
+    <Key Name="2" Value="Error Vectors " />
+  </Section>
+  <Section Name="MainForm.lvwWafs">
+    <Key Name="0" Value="ابتدا" />
+    <Key Name="1" Value="پایان" />
+  </Section>
+  <Section Name="MainForm">
+	<Key Name="chkHideDork" Value="مخفی کردن Dorks" />
+	<Key Name="btnSearchFilter" Value="فیلتر بر اساس کلمه کلیدی" />
+	<Key Name="lblGuiStyle" Value="سبک رابط کاربری گرافیکی" />
+    <Key Name="chkScanningBlackListProxy" Value="فعال کردن Scanner Proxy IP Blacklist" />
+    <Key Name="lblAdvanced" Value="!اگر چیزی راجبه این قیمت نمیدانید تغییری ایجاد نکنید" />
+    <Key Name="lblRFIkeyword" Value="واژه کلیدی" />
+    <Key Name="lblRFIurl" Value="لینک" />
+    <Key Name="btnToolsClean" Value="پاک کردن فرم" />
+    <Key Name="btnBase64ToText" Value=" Base64 to Text" />
+    <Key Name="btnTextToBase64" Value="Text to Base64" />
+    <Key Name="btnURLDecondingToText" Value="URL Dec. to Text" />
+    <Key Name="btnTextToURLEnconding" Value="Text to URL Enc." />
+    <Key Name="butTextToSQLChar" Value="Text to SQL Char" />
+    <Key Name="btnHexToText" Value="Hex to Text" />
+    <Key Name="lblToolsConvertHexValue" Value="Hex value" />
+    <Key Name="lblToolsConverSQLChar" Value="SQL char value" />
+    <Key Name="lblToolsConvertTextValue" Value="Text value" />
+    <Key Name="btnConvertTextToHex" Value="Text to Hex" />
+    <Key Name="btnPing" Value="پینگ" />
+    <Key Name="btnResolve" Value="برطرف کردن" />
+    <Key Name="lblToolsIPAddress" Value="آدرس" />
+    <Key Name="lblToolsIP" Value="IP" />
+    <Key Name="lblToolsIPCountry" Value="کشور" />
+    <Key Name="lblToolsIPport" Value="پورت:" />
+    <Key Name="btnSQLiNoInjectableSearchClear" Value="پاک کردن" />
+    <Key Name="btnSQLiNoInjectableSearch" Value="جستجو" />
+    <Key Name="btnSearchColumnStart" Value="شروع جستجو" />
+    <Key Name="chkSearchColumnAllDBs" Value="تمام پایگاه های داده" />
+    <Key Name="lblSearchColumnThreads" Value="تعداد اتصالات" />
+    <Key Name="btnSearchColumnPause" Value="مکث" />
+    <Key Name="btnSearchColumnStop" Value="توقف" />
+    <Key Name="btnSQLiSearchClear" Value="پاک کردن" />
+    <Key Name="btnSQLiSearch" Value="جستجو" />
+    <Key Name="btnStart" Value="شروع" />
+    <Key Name="btnPause" Value="مکث" />
+    <Key Name="btnStop" Value="توقف" />
+    <Key Name="btnUpdater" Value="بررسی" />
+    <Key Name="btnSettingSave" Value="ذخیره" />
+    <Key Name="btnSettingReLoad" Value="بارگذاری مجدد" />
+    <Key Name="btnSettingReset" Value="تنظیمات پیشفرض" />
+    <Key Name="lblHTTPdelay" Value="تاخیر exploit (ms)" />
+    <Key Name="lblHTTPretry" Value="درخواست مجدد محدودیت" />
+    <Key Name="lblHTTPtimeout" Value="زمان اتصال (ثانیه)" />
+    <Key Name="lblHTTPdelayIP" Value="تاخیر اسکنر در هر IP (پراکسی) (ms)" />
+    <Key Name="lblHTTPdelayHost" Value="تاخیر اسکنر در هر Host (ms)" />
+    <Key Name="lblAccept" Value="قابل قبول" />
+    <Key Name="lblUserAgent" Value="عامل کاربر" />
+    <Key Name="btnFileInclusaoSearchClear" Value="پاک کردن" />
+    <Key Name="btnFileInclusaoSearch" Value="جستجو" />
+    <Key Name="btnSocksAppend" Value="چسباندن پراکسی" />
+    <Key Name="btnSocksMyIP" Value="ip خودم شامل شود" />
+    <Key Name="btnSocksClear" Value="پاک کردن" />
+    <Key Name="btnSocksTest" Value="تست پراکسی.." />
+    <Key Name="btnSocksNew" Value="اضافه" />
+    <Key Name="lblMainStatus" Value="آماده" />
+    <Key Name="mnuLWShell" Value="Shell" />
+	<Key Name="mnuLWReExploiter" Value="Re-Exploiter" />
+    <Key Name="mnuLWClipboard" Value="کپی" />
+    <Key Name="mnuLWAlexa" Value="رتبه در الکسا" />
+    <Key Name="mnuLWSelectAll" Value="انتخاب همه" />
+    <Key Name="mnuLWGoNewDumper" Value="دامپر جدید.." />
+    <Key Name="mnuLWGoDumper" Value="برو به دامپر.." />
+    <Key Name="mnuLWGoFileDumper" Value="برو به فایل دامپر" />
+    <Key Name="mnuLWExport" Value="صادر کردن" />
+    <Key Name="mnuLWTrash" Value="انتقال به زباله" />
+    <Key Name="mnuLWRemove" Value="حذف" />
+    <Key Name="mnuLWSelected" Value="انتخاب شده: " />
+    <Key Name="mnuSocksCheck" Value="همه را بررسی کنید" />
+    <Key Name="mnuSocksUnCheck" Value="همه موارد را از حالت بررسی خارج کنید" />
+    <Key Name="mnuSocksSelectAll" Value="انتخاب همه" />
+    <Key Name="mnuSocksRemove" Value="حذف" />
+    <Key Name="mnuExcludeUrlWordsRemove" Value="حذف" />
+    <Key Name="mnuAboutClipboard" Value="تماس با من در حافظه موقت ذخیره شد" />
+    <Key Name="mnuQueueShell" Value="Shell" />
+    <Key Name="mnuQueueClipboard" Value="کپی" />
+    <Key Name="mnuQueueSelectAll" Value="انتخاب همه" />
+    <Key Name="mnuQueueRomove" Value="حذف" />
+    <Key Name="mnuQueueTrash" Value="انتقال به زباله" />
+    <Key Name="mnuTrashRefresh" Value="بارگذاری آخرین 2ک" />
+    <Key Name="mnuTrashClippboard" Value="کپی" />
+    <Key Name="mnuTrashSelectAll" Value="انتخاب همه" />
+    <Key Name="mnuTrashClearAll" Value="پاک کردن همه " />
+    <Key Name="mnuTrashRemove" Value="حذف" />
+    <Key Name="mnuTrashCount" Value="همه: لینک ها" />
+    <Key Name="mnuHttpLogClear" Value="پاک کردن" />
+    <Key Name="mnuHttpLogShell" Value="Shell" />
+    <Key Name="mnuHttpLogClipboard" Value="کپی" />
+    <Key Name="mnuHttpLogAutoScroll" Value="اسکرول خودکار" />
+    <Key Name="mnuHttpLogDock" Value="عقب انداختن" />
+    <Key Name="mnuPathAdd" Value="اضافه" />
+    <Key Name="mnuPathEdit" Value="ویرایش" />
+    <Key Name="mnuPathRem" Value="حذف" />
+    <Key Name="ScannerDomainEdit" Value="ویرایش" />
+    <Key Name="mnuSearchColumnRem" Value="حذف" />
+    <Key Name="mnuSearchColumnClear" Value="پاک کردن" />
+    <Key Name="mnuDownloadsClear" Value="تنظیم مجدد" />
+    <Key Name="grbLfiLinux" Value="LFI (Local File Inclusion)" />
+    <Key Name="grbSQLi" Value="SQLi (SQL Injection)" />
+    <Key Name="grbHTTPExploit" Value="HTTP Exploit setup" />
+    <Key Name="chkSkipHttpStatus4xx" Value="Skip HTTP Satus 4xx Client Error" />
+    <Key Name="chkExploitIgnoreCookies" Value="(چشم پوشی پیگیری کوکی ردیابی WAF)تلاش مجدد" />
+    <Key Name="chkLfiWindowsSkip" Value="غیرفعال سازی  LFI در سرور" />
+    <Key Name="grbFileIncWAFs" Value="WAF Bypass (LFI/RFI)" />
+    <Key Name="grbRFI" Value="RFI (Remote File Include)" />
+    <Key Name="grbScanner" Value="اسکنر دامنه" />
+    <Key Name="grbToolsConvertEnc" Value="کدگذاری \ رمزگشایی" />
+    <Key Name="chkGroupChar" Value="گروه کارکتر" />
+    <Key Name="grbToolsIP" Value="IP Pinger/Host به کشور" />
+    <Key Name="grbUpdater" Value="آپدیت برنامه" />
+    <Key Name="chkUpdater" Value="بررسی آپدیت" />
+    <Key Name="grbAppSetthings" Value="تنظیمات" />
+    <Key Name="GroupBox4" Value="پوسته گرافیکی" />
+    <Key Name="chkGUIHotKey" Value="(Alt+?)نمایش رابط گرافیکی/پنهان کردن" />
+    <Key Name="chkSysTray" Value="System Tray کوچک کردن به حالت" />
+    <Key Name="chkSkin" Value="فعال سازی پوسته برنامه" />
+    <Key Name="grbExploithing" Value="exploit موتورهای" />
+    <Key Name="GroupBox1" Value="عمومی HTTP" />
+    <Key Name="grbScannerURL" Value="صف" />
+    <Key Name="grbHttpLog" Value="HTTP اشکال زدایی" />
+    <Key Name="lblLFIPathCount" Value="تعداد تراکنش مسیر" />
+    <Key Name="chkAnalizeMsAcessSybase" Value="اضافه کردن MsAccess و Sybase به Non-Injecables" />
+    <Key Name="chkAnalizerPostgreErrorUnion" Value="بررسی اتصال در خطای PostgreSQL" />
+    <Key Name="chkAnalizerOracleErrorUnion" Value="بررسی اتصال در خطای Oracle" />
+    <Key Name="chkAnalizeQueryComment" Value="غیرفعال سازی اضافه کردن نظر '--' (String Inject)" />
+    <Key Name="chkAnalizerMySQLErrorUnion" Value="بررسی اتصال در خطای MySQL" />
+    <Key Name="chkAnalizerMSSQLErrorUnion" Value="بررسی اتصال در خطای MS SQL" />
+    <Key Name="chkAnalizeWAF" Value="WAFs فعال سازی " />
+    <Key Name="lblSQLiExploitCode" Value="exploit کد" />
+    <Key Name="lblSQLiUnionCount" Value="تعداد ستون اتصال" />
+    <Key Name="lblSQLiUnionTo" Value="به" />
+    <Key Name="chkAnalizeMySQLReadWrite" Value="MySQL بررسی خواندن\نوشتن در" />
+    <Key Name="btnExcludeUrlWords" Value="اضافه" />
+    <Key Name="lblSkipWordURL" Value="کلمات را پر کن" />
+    <Key Name="lblLanguage" Value="زبان" />
+    <Key Name="chkSearchColumn" Value="+" />
+    <Key Name="chkSearchColumn2" Value="+" />
+    <Key Name="chkSearchColumn3" Value="+" />
+    <Key Name="chkSearchColumn4" Value="+" />
+    <Key Name="GroupBox2" Value="وارد کردن Injectables از SQLi Dumper 8.x" />
+    <Key Name="btnXmlImport8x" Value="وارد کردن.." />
+    <Key Name="grbXSS" Value="XSS (Cross Site Scripting)" />
+  </Section>
+  <Section Name="MainForm.tabScanner">
+    <Key Name="0" Value="دامنه" />
+    <Key Name="1" Value="لیست سیاه لینک" />
+  </Section>
+  <Section Name="MainForm.dtgSQLiNoInjectable">
+    <Key Name="0" Value="لینک" />
+    <Key Name="1" Value="نوع" />
+    <Key Name="2" Value="کشور" />
+    <Key Name="3" Value="بررسی شده" />
+    <Key Name="4" Value="نظرات" />
+  </Section>
+  <Section Name="MainForm.dtgSQLi">
+    <Key Name="0" Value="لینک" />
+    <Key Name="1" Value="نوع" />
+    <Key Name="2" Value="SQL ورژن" />
+    <Key Name="3" Value="برجسته" />
+    <Key Name="4" Value="کشور" />
+    <Key Name="5" Value="جستجو ستون" />
+    <Key Name="6" Value="آخرین بررسی" />
+	<Key Name="7" Value="نظرات" />
+  </Section>
+  <Section Name="MainForm.dtgFileInclusao">
+    <Key Name="0" Value="لینک" />
+    <Key Name="1" Value="نوع" />
+    <Key Name="2" Value="کشور" />
+    <Key Name="3" Value="بررسی شده" />
+	<Key Name="4" Value="نظرات" />
+  </Section>
+  <Section Name="MainForm.dtgSocks">
+    <Key Name="0" Value="IP" />
+    <Key Name="1" Value="نوع" />
+    <Key Name="2" Value="کاربر" />
+    <Key Name="3" Value="پسورد" />
+    <Key Name="4" Value="کشور" />
+  </Section>
+  <Section Name="MainForm.lvwHttpLog">
+    <Key Name="0" Value="لینک" />
+    <Key Name="1" Value="سایز" />
+    <Key Name="2" Value="سپری شده" />
+    <Key Name="3" Value="وضعیت" />
+    <Key Name="4" Value="پراکسی" />
+  </Section>
+  <Section Name="MainForm.twMain">
+    <Key Name="0" Value="Scanner" />
+    <Key Name="1" Value="SQL Injection" />
+    <Key Name="2" Value="ناموفق" />
+    <Key Name="3" Value="Data Dumper" />
+    <Key Name="4" Value="XSS\LFI\RFI" />
+    <Key Name="5" Value="زباله" />
+    <Key Name="6" Value="پراکسی" />
+    <Key Name="7" Value="ابزارها" />
+    <Key Name="8" Value="پیدا کردن لوگین" />
+    <Key Name="9" Value="یادداشت" />
+    <Key Name="10" Value="تنظیمات" />
+    <Key Name="11" Value="پیشرفته" />
+    <Key Name="12" Value="آمار" />
+    <Key Name="13" Value="درباره ما" />
+	<Key Name="14" Value="صف" />
+	<Key Name="15" Value="تحلیلگر" />
+	<Key Name="17" Value="خانه" />
+	<Key Name="18" Value="تبدیل رشته ها" />
+  </Section>
+  <Section Name="MainForm.Strings">
+    <Key Name="0" Value="خوش آمدید به" />
+    <Key Name="1" Value="کارگر در حال اجراست, برنامه را می بندید؟?" />
+    <Key Name="2" Value="تایید خروج" />
+    <Key Name="3" Value="لطفا موتور جستجو را انتخاب کنید.." />
+    <Key Name="4" Value="لطفا لیست دورک را اضافه کنید.." />
+    <Key Name="5" Value="ستون جستجو\جداول خالی است." />
+    <Key Name="6" Value="ستون جستجو\جداول فقط برای MySQL و MS SQL در دسترس هستند." />
+    <Key Name="7" Value="جستجو" />
+    <Key Name="8" Value="ستون:" />
+    <Key Name="9" Value="جدول:" />
+    <Key Name="10" Value="اولیه کردن.." />
+    <Key Name="11" Value="بارگیری تنظیمات.." />
+    <Key Name="12" Value="بارگیری رابط گرافیکی.." />
+    <Key Name="13" Value="بارگیری فایل:" />
+    <Key Name="14" Value="باز کردن لیست لینک ها" />
+    <Key Name="15" Value="پیش نمایش فایل" />
+    <Key Name="16" Value="کارگر لغو شد" />
+    <Key Name="17" Value="لطفا صبر کنید, درحال بارگیری لیست صف.." />
+    <Key Name="18" Value="مشغول به کار.. چک شده ها:" />
+    <Key Name="19" Value="مشغول به کار.. پرش لینک ها.. به " />
+    <Key Name="20" Value="مشغول به کار لینک ها:" />
+    <Key Name="21" Value="لطفا صبر کنید, درحال بارگیری لیست صف.." />
+    <Key Name="22" Value="جستجو" />
+    <Key Name="23" Value="لطفا صبر کنید, تعداد اتصال به پایان برسد.." />
+    <Key Name="24" Value="چک شده ها:" />
+    <Key Name="25" Value="کارگر کامل است" />
+    <Key Name="26" Value="نتیجه اسکنر" />
+    <Key Name="27" Value="کارگر کامل است, Err:" />
+    <Key Name="28" Value="در حال اسکن, لطفا صبر کنید.. لینک ها اضافه شد:" />
+    <Key Name="29" Value="لطفا صبر کنید , درحال exploit" />
+    <Key Name="31" Value="مخفی کردن ستون کناری" />
+    <Key Name="32" Value="HTTP آمار" />
+    <Key Name="33" Value="همیشه" />
+    <Key Name="34" Value="هر هفته" />
+    <Key Name="35" Value="هرماه" />
+    <Key Name="36" Value="بروز رسانی جدید در دسترس است, ورژن " />
+    <Key Name="37" Value="شما می خواهید اکنون دانلود کنید؟" />
+    <Key Name="38" Value="بدون نیاز به بروز رسانی." />
+    <Key Name="39" Value="سرعت دانلود:" />
+    <Key Name="40" Value="بروزرسانی کامل شد, لطفا برنامه را مجدد راه اندازی کنید." />
+    <Key Name="41" Value="بروزرسانی ناموفق." />
+    <Key Name="42" Value="سلب مسئولیت" />
+    <Key Name="43" Value="SQLi Dumper (ابزار امنیتی)" />
+    <Key Name="44" Value="با هدف تست و مديريت كردن سيستم هاي خود" />
+    <Key Name="45" Value="!استفاده بدون اجازه مالك در سيستم هاى غير خودى ممنوع است" />
+    <Key Name="46" Value="!مسووليت استفاده به عهده خودتان است" />
+    <Key Name="47" Value="با تشکر" />
+    <Key Name="48" Value="تنظیمات ذخیره شد.." />
+    <Key Name="49" Value="تنظیمات بارگذاری شده.." />
+    <Key Name="50" Value="برای بازنشانی تمام تنظیمات(excluding *.txt), لازم است دوباره راه اندازی شود." />
+    <Key Name="51" Value="میخواهید ادامه دهید؟" />
+    <Key Name="52" Value="تماس کپی شده است" />
+    <Key Name="53" Value="ویرایش WAF:" />
+    <Key Name="54" Value="ویرایش مسیر:" />
+    <Key Name="55" Value="ویرایش بردار:" />
+    <Key Name="56" Value="تست پینگ ناموفق." />
+    <Key Name="57" Value="تست پینگ موفق." />
+    <Key Name="58" Value="!خطای IP resolver , آدرس نامعتبر یا یافت نشد" />
+    <Key Name="59" Value="لینک ها:" />
+    <Key Name="60" Value="پاک کردن همه زباله ها" />
+    <Key Name="61" Value="انتخاب شد:" />
+    <Key Name="62" Value="اسکرول خودکار: بله" />
+    <Key Name="63" Value="اسکرول خودکار: خیر" />
+    <Key Name="64" Value="در مرورگر باز شود?" />
+    <Key Name="65" Value="تست پراکسی" />
+    <Key Name="66" Value="پراکسی ها خالی هستند." />
+    <Key Name="67" Value="فهرست ها به علت سرعت زیاد پرش کردند" />
+    <Key Name="68" Value="ms محدوده." />
+    <Key Name="69" Value="برقراری ارتباط.." />
+    <Key Name="70" Value="حذف:" />
+    <Key Name="71" Value="ویرایش دامنه:" />
+    <Key Name="72" Value="لینک های بارگذاری شده:" />
+    <Key Name="73" Value="پشتیبانی نشده:" />
+    <Key Name="74" Value="تکرار شده:" />
+    <Key Name="75" Value="در زباله:" />
+    <Key Name="76" Value="In SQLi:" />
+    <Key Name="77" Value="در ناموفق:" />
+    <Key Name="78" Value="In File Inclusao:" />
+    <Key Name="79" Value="اضافه شده:" />
+    <Key Name="80" Value="در حال اسکن, لطفا صبر کنید.. لینک های اضافه شده:" />
+    <Key Name="81" Value="دورک:" />
+    <Key Name="82" Value="بررسی مسیر LFI:" />
+    <Key Name="83" Value="بررسی کردن RFI" />
+    <Key Name="84" Value="فایل" />
+    <Key Name="85" Value="نوشتن" />
+    <Key Name="86" Value="خواندن" />
+    <Key Name="87" Value="-ناموفق-" />
+    <Key Name="88" Value="مجموعه های نصب نادرست" />
+    <Key Name="89" Value="شمارش ردیف" />
+    <Key Name="90" Value="در حال بارگیری DB فعلی" />
+    <Key Name="91" Value="جستجوی ستون" />
+    <Key Name="92" Value="شمارش ردیف ها" />
+    <Key Name="93" Value="Match in" />
+    <Key Name="94" Value="جداول" />
+    <Key Name="95" Value="بیش از حد مجاز" />
+    <Key Name="96" Value="جدول جستجو" />
+    <Key Name="97" Value="در حال بارگیری DB فعلی" />
+    <Key Name="98" Value="بارگیری DB" />
+    <Key Name="99" Value="چک کردن جداول در DB" />
+    <Key Name="100" Value="DB" />
+    <Key Name="101" Value="جدول" />
+    <Key Name="102" Value="تعداد اتصال" />
+    <Key Name="103" Value="پراکسی ها" />
+    <Key Name="104" Value="استفاده از رم" />
+    <Key Name="105" Value="حداکثر استفاده از رم" />
+    <Key Name="106" Value="مدت زمان استفاده از برنامه" />
+    <Key Name="107" Value="دانلودها" />
+    <Key Name="108" Value="در حال دامپ کردن" />
+    <Key Name="109" Value="شروع اسکنر" />
+    <Key Name="110" Value="شروع exploit" />
+    <Key Name="111" Value="جستجو.." />
+    <Key Name="112" Value="بردار" />
+    <Key Name="113" Value="اضافه کردن بردار" />
+    <Key Name="114" Value="ویرایش بردار: " />
+    <Key Name="115" Value="بررسی کردن نوع وب سرور" />
+    <Key Name="116" Value="چک کردن XSS: " />
+    <Key Name="117" Value="تشخیص نوع exploit" />
+    <Key Name="118" Value="چک کردن ورژن SQL" />
+    <Key Name="119" Value="چک کردن نقل قول جادویی" />
+    <Key Name="120" Value="بررسی پرونده ارسال فایل mysql: " />
+    <Key Name="121" Value="تلاش براساس خطا" />
+    <Key Name="122" Value="تلاش براساس اتصال" />
+	<Key Name="123" Value="پراکسی لیست برای موتور جستجو بلاک شده است:" />
+	<Key Name="124" Value="لطفا پراکسی جدید وارد کنید!" />
+	<Key Name="125" Value="بله برای ادامه، خیر برای لغو" />
+	
+	<Key Name="126" Value="همه" />
+	<Key Name="127" Value="جلسه" />
+	<Key Name="128" Value="امروز" />
+	<Key Name="129" Value="هفته" />
+	<Key Name="130" Value="ماه" />
+	<Key Name="131" Value="ربع" />
+	<Key Name="132" Value=">ربع" />	
+  </Section>
+  <Section Name="Dumper.tbcMain">
+    <Key Name="0" Value="schema" />
+    <Key Name="1" Value="Query" />
+    <Key Name="2" Value="بارگذاری\نوشتن فایل" />
+  </Section>
+  <Section Name="Dumper">
+    <Key Name="btnLoadDefautSettings" Value="پاک کردن فرم" />
+    <Key Name="btnLoadNewDumper" Value="دامپر جدید" />
+    <Key Name="lblHeaderValue" Value="Value:" />
+    <Key Name="lblHeaderName" Value="نام:" />
+    <Key Name="lblInjectionPointMethod" Value="روش" />
+    <Key Name="lblInjectionPoint" Value="Injection Point:" />
+    <Key Name="lblPost" Value="POST" />
+    <Key Name="lblCookies" Value="کوکی ها" />
+    <Key Name="lblLoginUser" Value="نام کاربری" />
+    <Key Name="lblLoginPassword" Value="پسورد" />
+    <Key Name="lblDumperRetryColumn" Value="امتحان دوباره ستون محدود" />
+    <Key Name="lblDumperStartIndex" Value="شروع دامپ از" />
+    <Key Name="lblDumperMaxRows" Value="حداکثر ردیف" />
+    <Key Name="lblThreadDelay" Value="Single-Thread Delay  (ms)" />
+    <Key Name="lblThreadRetry" Value="Single-Thread Retry Limit" />
+    <Key Name="lblMultiThreadDelay" Value="Multi-Thread Delay  (ms)" />
+    <Key Name="lblMultiThreadRetry" Value="Multi-Thread Retry Limit" />
+    <Key Name="lblTimout" Value="وقفه (ثانیه)" />
+    <Key Name="tsbSchemas_1" Value="تازه کردن Dir.." />
+    <Key Name="tsbSchemas_0" Value="بارگذاری نشست" />
+    <Key Name="tsbSchemas_2" Value="حذف نشست انتخاب شده" />
+    <Key Name="btnServerInfo" Value="دریافت اطلاعات سرور" />
+    <Key Name="tsbSchemas_3" Value="ذخیره نشست" />
+    <Key Name="btnPasteURL" Value="چسباندن لینک" />
+    <Key Name="mnuCountDBs" Value="شمارش پایگاه داده" />
+    <Key Name="mnuCountTables" Value="تعداد جدول" />
+    <Key Name="mnuCountTablesAll" Value="شمارش همه جدول ها" />
+    <Key Name="mnuCountColumns" Value="تعداد ستون" />
+    <Key Name="mnuCountColumnsAll" Value="شمارش همه ستون ها" />
+    <Key Name="mnuCountRows" Value="تعداد ردیف" />
+    <Key Name="mnuCountRowsAll" Value="شمارش همه ردیف ها" />
+    <Key Name="mnuCopyDB" Value="کپی پایگاه داده" />
+    <Key Name="mnuCopyColumn" Value="کپی ستون" />
+    <Key Name="mnuCopyTable" Value="کپی جدول" />
+    <Key Name="mnuCheckAllColumns" Value="بررسی همه ستون ها" />
+    <Key Name="mnuUnCheckAllColumns" Value="بررسی نکردن همه ستون ها" />
+    <Key Name="mnuCheckRevert" Value="برگرداندن تمام ستون ها" />
+    <Key Name="mnuCopyAllNodes" Value="کپی همه گره ها" />
+    <Key Name="mnuCopyAllSchema" Value="کپی همه schema" />
+    <Key Name="mnuClearNodes" Value="پاک کردن گره" />
+    <Key Name="mnuClearSchema" Value="پاک کردن همه schema" />
+    <Key Name="mnuRemDB" Value="حذف پایگاه داده" />
+    <Key Name="mnuRemTable" Value="حذف جدول" />
+    <Key Name="mnuRemColumn" Value="حذف ستون" />
+    <Key Name="mnuAddDB" Value="اضافه کردن پایگاه داده" />
+    <Key Name="mnuAddTable" Value="اضافه کردن جدول" />
+    <Key Name="mnuAddColumn" Value="اضافه کردن ستون" />
+    <Key Name="mnuCollapseTree" Value="جمع کردن لیست" />
+    <Key Name="mnuSortTree" Value="مرتب سازی لیست" />
+    <Key Name="mnuConvHex" Value="به hex" />
+    <Key Name="mnuConvChar" Value="به گروه کارکتر" />
+    <Key Name="mnuConvLEN" Value="LEN() OR LENGHT" />
+    <Key Name="mnuConvAddA" Value="کدگذاری را اضافه کنید '%@%'" />
+    <Key Name="mnuPostgreSQL_ListUsers" Value="فهرست کاربران" />
+    <Key Name="mnuPostgreSQL_Passwords" Value="فهرست رمز عبور هش" />
+    <Key Name="mnuPostgreSQL_Join" Value="مثال پیوستن" />
+    <Key Name="mnuOracleListUsers" Value="فهرست کاربران" />
+    <Key Name="mnuOracleHashes" Value="فهرست رمز عبور هش" />
+    <Key Name="mnuOracleJoin" Value="مثال پیوستن" />
+    <Key Name="mnuOracleHelp" Value="کمک" />
+    <Key Name="mnuSqlLogins" Value="فهرست کاربران" />
+    <Key Name="mnuSqlIsAdmin" Value="اکانت مدیر سیستم است" />
+    <Key Name="mnuSQLJoin" Value="مثال پیوستن" />
+    <Key Name="mnuSQLHelp" Value="کمک" />
+    <Key Name="mnuUsers" Value="یوزر پسورد هش mysql" />
+    <Key Name="mnuPrivileges" Value="لیست امتیازات" />
+    <Key Name="mnuListDBA" Value="فهرست DBA حساب ها" />
+    <Key Name="mnuHostIP" Value="Hostname, Data Dir" />
+    <Key Name="mnuExtraMySQLStuffs2" Value="کاربر(), پایگاه داده(), ورژن()" />
+    <Key Name="mnuLoadFile" Value="Load_File()" />
+    <Key Name="mnuIntoOutfile" Value="Into Outfile()" />
+    <Key Name="mnuIntoDumpfile" Value="Into Dumpfile()" />
+    <Key Name="mnuExtraMySQLStuffs" Value="Md5(), Sha1(), Password()" />
+    <Key Name="mnuCheckUser" Value="DataBase, Table, Column Contains %user%" />
+    <Key Name="mnuCheckPizza" Value="DataBase, Table, Column Contains Pizza" />
+    <Key Name="mnuJOIN" Value="مثال پیوستن" />
+    <Key Name="mnuLENGTH" Value="طول((DATABASE())" />
+    <Key Name="mnuLimitXY" Value="محدوده [x],[y]" />
+    <Key Name="mnuMySQLHelp" Value="کمک" />
+    <Key Name="grbInjectionPoint" Value="Injection Point:" />
+    <Key Name="chkAddHearder" Value="اضافه کردن سربرگ" />
+    <Key Name="grbLogin" Value="مدارک شبکه (لوگین)" />
+    <Key Name="chkReDumpFailed" Value="شاخص ناموفق دامپ مجدد" />
+    <Key Name="chkClearListOnGet" Value="پاک کردن schema در حال دریافت" />
+    <Key Name="chkDumpOrderBy" Value="اضافه کردن Query ORDER BY" />
+    <Key Name="chkDumpWhere" Value="اضافه کردن Query WHERE" />
+    <Key Name="chkDumpFieldByField" Value="دامپ ناموفق(s)" />
+    <Key Name="grbMySQLCollactions" Value="ترکیب بندی غیرمجاز" />
+    <Key Name="chkDumpIFNULL" Value="دامپ ردیف اگر خالی باشد" />
+    <Key Name="chkDumpEncodedHex" Value="دامپ ردیف hex رمزگذاری شده" />
+    <Key Name="chkAllInOneRequest" Value="همه در یکی" />
+    <Key Name="grbMSSQLCollactions" Value="ترکیب بندی غیرمجاز" />
+    <Key Name="chkMSSQLCastAsChar" Value="قالب به عنوان کارکتر" />
+    <Key Name="chkMSSQL_Latin1" Value="SQL_Latin1" />
+    <Key Name="grbOracleCollactions" Value="ترکیب بندی غیرمجاز" />
+    <Key Name="chkOracleCastAsChar" Value="قالب به عنوان کارکتر" />
+    <Key Name="chkHttpRedirect" Value="HTTP دنبال تغییر مسیر" />
+    <Key Name="chkThreads" Value="Multi-Thread" />
+    <Key Name="grbWhere" Value="Where (Field Value)" />
+    <Key Name="grbOrderBy" Value="سفارش توسط(Field ASC/DESC)" />
+    <Key Name="btnFiltersClear1" Value="پاک کردن Query" />
+    <Key Name="btnClearSchema" Value="پاک کردن Schema" />
+    <Key Name="btnDataBases" Value="دریافت پایگاه داده" />
+    <Key Name="btnTables" Value="دریافت جداول" />
+    <Key Name="btnColumns" Value="دریافت ستون ها" />
+    <Key Name="btnColumnUp" Value="حرکت ستون به بالا" />
+    <Key Name="btnColumnDown" Value="حرکت ستون به پایین" />
+    <Key Name="btnDumpData" Value="دامپ اطلاعات" />
+    <Key Name="lblSelect" Value="انتخاب کنید" />
+    <Key Name="lblFrom" Value="از" />
+    <Key Name="btnDumpCustom" Value="اجرای Query" />
+    <Key Name="btnDefCustomQuery" Value="قالب پیشفرض Query" />
+    <Key Name="grbWriteFile" Value="نوشتن فایل (فعال بودن نقل قول جادویی مورد نیاز است)" />
+    <Key Name="lblWritePath" Value="مسیر:" />
+    <Key Name="btnMySQLWriteFile" Value="نوشتن.." />
+    <Key Name="grbLoadFile" Value="خواندن فایل" />
+    <Key Name="lblReadPath" Value="مسیر:" />
+    <Key Name="btnMySQLReadFile" Value="خواندن.." />
+  </Section>
+  <Section Name="Dumper.Strings">
+    <Key Name="0" Value="درخواست موفقیت آمیز بود" />
+    <Key Name="2" Value="ناموفق" />
+    <Key Name="3" Value="بیش تر از حد مجاز است" />
+    <Key Name="4" Value="لغو شده توسط کاربر" />
+    <Key Name="5" Value="در حال بارگذاری لطفا صبر کنید.." />
+    <Key Name="6" Value="متغیر '[t]' پیدا نشد,injection point را بررسی کنید." />
+    <Key Name="7" Value="MySQL V4.x.x اجازه اجرای Query را نمی دهد." />
+    <Key Name="8" Value="مسیر فایل را خالی بخوانید." />
+    <Key Name="9" Value="محتوای فایل نوشتن خالی است." />
+    <Key Name="10" Value="مسیر فایل را خالی بنویسید." />
+    <Key Name="11" Value="نقش نامعتبر برای بیانیه انتخاب شده." />
+    <Key Name="12" Value="SQL query خالی." />
+    <Key Name="13" Value="پایگاه داده را بررسی کنید(s)" />
+    <Key Name="14" Value="جدول را بررسی کنید(s)" />
+    <Key Name="15" Value="ستون را بررسی کنید(s)" />
+    <Key Name="16" Value="فایل را بنویسید, در این مسیر load_file() امتحان کنید." />
+    <Key Name="17" Value="Load_file() باموفقیت." />
+    <Key Name="18" Value="Load_file() ناموفق," />
+    <Key Name="19" Value="از دست رفته" />
+    <Key Name="20" Value="اضافه" />
+    <Key Name="21" Value="بررسی ردیف های تحت تاثیر قرار گرفته.." />
+    <Key Name="22" Value="هیچ ردیف تحت تاثیری پیدا نشد" />
+    <Key Name="23" Value="حداکثر حد مجاز" />
+    <Key Name="24" Value="دامپ ناموفق ردیف شاخص." />
+    <Key Name="25" Value="تمکیل موضوعات.." />
+    <Key Name="26" Value="تکمیل موضوعات [ناموفق,ستون,شاخص].." />
+    <Key Name="27" Value="کارگر لغو شد" />
+    <Key Name="28" Value="کارگر کامل است" />
+    <Key Name="29" Value="اجرای query." />
+    <Key Name="30" Value="HTTP وقفه" />
+    <Key Name="31" Value="داده با موفقیت بارگذاری شد, شمارش:" />
+    <Key Name="32" Value="داده یافت نشد, شاخص:" />
+    <Key Name="33" Value="پایگاه های داده با موفقیت بارگذاری شدند" />
+    <Key Name="34" Value="جداول با موفقیت بارگذاری شدند" />
+    <Key Name="35" Value="ستونها با موفقیت بارگذاری شدند" />
+    <Key Name="36" Value="در حال دامپ ستون" />
+    <Key Name="37" Value="در حال دامپ DB Name, نام کاربر , راه اندازی خودکار.." />
+    <Key Name="38" Value="در حال دامپ" />
+    <Key Name="39" Value="نمایش عادی" />
+    <Key Name="40" Value="دید کامل" />
+    <Key Name="41" Value="جداول:" />
+    <Key Name="42" Value="ستون ها:" />
+    <Key Name="43" Value="تعداد جدول:" />
+    <Key Name="44" Value="تعداد ستون:" />
+    <Key Name="45" Value="پایگاه داده" />
+    <Key Name="46" Value="جدول" />
+    <Key Name="47" Value="ستون" />
+    <Key Name="48" Value="نام را وارد کنید" />
+    <Key Name="49" Value="نام معتبر نیست." />
+    <Key Name="50" Value="این نام در حال حاضر در پایگاه داده دیگر استفاده شده است." />
+    <Key Name="51" Value="این نام در حال حاضر در جدول دیگر استفاده شده است." />
+    <Key Name="52" Value="این نام در حال حاضر در ستون دیگر استفاده شده است." />
+    <Key Name="53" Value="نام فایلی که قبلا وارد کرده اید وجود دارد." />
+    <Key Name="54" Value="برای لغو «نه» برای تایید «بله» فشار دهید." />
+    <Key Name="55" Value="Scheme با موفقیت ذخیره شد.." />
+    <Key Name="56" Value="Scheme با موفقیت بارگذاری شد.." />
+    <Key Name="57" Value="Scheme با موفقیت حذف شد.." />
+    <Key Name="58" Value="حذف Scheme" />
+    <Key Name="59" Value="نام فایل را وارد کنید" />
+    <Key Name="60" Value="ذخیره Scheme" />
+    <Key Name="61" Value="لینک نامعتبر." />
+    <Key Name="62" Value="رشته را وارد کنید" />
+  </Section>
+  <Section Name="LoginFinder.ListView1">
+    <Key Name="0" Value="لینک" />
+    <Key Name="1" Value="وضعیت" />
+    <Key Name="2" Value="سپری شده" />
+  </Section>
+  <Section Name="LoginFinder">
+    <Key Name="btnLoadDefautSettings" Value="پاک کردن فرم" />
+    <Key Name="Label14" Value="ارزش:" />
+    <Key Name="Label8" Value="نام:" />
+    <Key Name="Label12" Value="کوکی" />
+    <Key Name="Label9" Value="نام کاربری" />
+    <Key Name="Label10" Value="پسورد" />
+    <Key Name="btnDictPath" Value="---" />
+    <Key Name="Label1" Value="مسیر دیکشنری" />
+    <Key Name="Label4" Value="برنامه های وب" />
+    <Key Name="Label16" Value="درخواست تاخیر  (ms)" />
+    <Key Name="Label2" Value="وقفه (ثانیه)" />
+    <Key Name="btnWorkerStart" Value="شروع" />
+    <Key Name="btnWorkerPause" Value="مکث" />
+    <Key Name="btnWorkerStop" Value="توقف" />
+    <Key Name="btnPasteURL" Value="چسباندن لینک" />
+    <Key Name="chkAddHearder" Value="اضافه کردن هدر" />
+    <Key Name="grbSetup_4" Value="مدارک شبکه(لوگین)" />
+    <Key Name="grbSetup_3" Value="پوشش شخصیتی" />
+    <Key Name="chkHttpRedirect" Value="HTTP دنبال تغییر مسیر" />
+    <Key Name="chkThreads" Value="Multi-Thread" />
+    <Key Name="chkStopWhenDetects" Value="توقف خودکار" />
+    <Key Name="chkWebApps" Value="تشخیص خودکار" />
+  </Section>
+  <Section Name="DumpGrid">
+    <Key Name="btnFullView" Value="دید کامل" />
+    <Key Name="btnAutoScroll" Value="اسکرول خودکار" />
+    <Key Name="btnExpTXT" Value="صادر کردن اطلاعات" />
+    <Key Name="btnClipboard" Value="کپی" />
+    <Key Name="btnCloseGrid" Value="بستن صفحه" />
+    <Key Name="btnCloseAllButThis" Value="بستن همه به جز این" />
+    <Key Name="btnCloseAllGrids" Value="بستن تمام صفحه ها" />
+    <Key Name="mnuClipboard" Value="کپی" />
+    <Key Name="mnuClipboardAll" Value="کپی تمام ردیف ها" />
+    <Key Name="munClipboardCell" Value="کپی تمام سلولها" />
+  </Section>
+  <Section Name="DumpLoading">
+    <Key Name="tsbPause" Value="مکث" />
+    <Key Name="tsbStop" Value="لغو" />
+  </Section>
+  <Section Name="frmDumpGridExporter">
+    <Key Name="OK_Button" Value="OK" />
+    <Key Name="Cancel_Button" Value="خروج" />
+    <Key Name="lblStatus" Value="آماده" />
+    <Key Name="mnuMoveUP" Value="حرکت به بالا" />
+    <Key Name="mnuMoveDown" Value="حرکت به پایین" />
+    <Key Name="mmnCheck" Value="همه را بررسی کنید" />
+    <Key Name="mmnUnCheck" Value="همه موارد را از حالت انتخاب خارج کنید" />
+  </Section>
+  <Section Name="ProxyType">
+    <Key Name="btnOK" Value="OK" />
+  </Section>
+  <Section Name="NewSocks">
+    <Key Name="Label4" Value="نوع" />
+    <Key Name="btnCancel" Value="بستن" />
+    <Key Name="btnOK" Value="اضافه" />
+    <Key Name="Label3" Value="پسورد" />
+    <Key Name="Label2" Value="نام کاربری" />
+    <Key Name="Label1" Value="پورت" />
+    <Key Name="Label16" Value="IP" />
+  </Section>
+  <Section Name="SocksCheck">
+    <Key Name="lblStatus" Value="ساکس چکر" />
+    <Key Name="Label2" Value="وقفه" />
+    <Key Name="Label3" Value="تعداد اتصال" />
+    <Key Name="btnStart" Value="شروع" />
+    <Key Name="btnPause" Value="مکث" />
+    <Key Name="btnStop" Value="توقف" />
+    <Key Name="btnOK" Value="OK" />
+  </Section>
+  <Section Name="PathAdd">
+    <Key Name="OK_Button" Value="OK" />
+    <Key Name="Cancel_Button" Value="لغو" />
+    <Key Name="Label1" Value="واژه کلیدی" />
+    <Key Name="Label10" Value="مسیر" />
+  </Section>
+  <Section Name="WafAdd">
+    <Key Name="OK_Button" Value="OK" />
+    <Key Name="Cancel_Button" Value="لغو" />
+    <Key Name="Label1" Value="پایان" />
+    <Key Name="Label10" Value="ابتدا" />
+  </Section>
+  <Section Name="LoginFinder.lvwResult">
+    <Key Name="0" Value="لینک" />
+    <Key Name="1" Value="وضعیت" />
+    <Key Name="2" Value="سپری شده" />
+  </Section>
+  <Section Name="MainForm.lvwLFIpathLinux">
+    <Key Name="0" Value="مسیر" />
+    <Key Name="1" Value="واژه کلیدی" />
+  </Section>
+  <Section Name="MainForm.lvwLFIpathWin">
+    <Key Name="0" Value="مسیر" />
+    <Key Name="1" Value="واژه کلیدی" />
+  </Section>
+  <Section Name="MainForm.lvwScannerDomain">
+    <Key Name="0" Value="میزبان" />
+    <Key Name="1" Value="دامنه" />
+  </Section>
+  <Section Name="Exporter">
+    <Key Name="grbColumns" Value="ستون ها" />
+    <Key Name="OK_Button" Value="OK" />
+    <Key Name="Cancel_Button" Value="خروج" />
+    <Key Name="grbDelimiter" Value="جداکننده" />
+    <Key Name="rdbOpt2" Value="سفارشی" />
+    <Key Name="rdbOpt1" Value="برگه چارت" />
+    <Key Name="grbType" Value="نوع فایل" />
+    <Key Name="rdpType_3" Value="XML" />
+    <Key Name="rdpType_2" Value="HTML" />
+    <Key Name="rdpType_1" Value="PlainText" />
+  </Section>
+  <Section Name="OpenFilePreview">
+    <Key Name="Label1" Value="شروع خط شاخص" />
+    <Key Name="btnOK" Value="شروع کارگر" />
+    <Key Name="btnCancel" Value="لغو" />
+  </Section>
+  <Section Name="SearchColumn.lvwData">
+    <Key Name="0" Value="" />
+    <Key Name="1" Value="" />
+  </Section>
+  <Section Name="SearchColumn">
+    <Key Name="btnCopy" Value="کپی" />
+    <Key Name="btnSort" Value="مرتب سازی" />
+    <Key Name="ToolStripLabel1" Value="حداقل.. ردیف:" />
+    <Key Name="mnuDumper2" Value="نمونه دمپر جدید" />
+    <Key Name="mnuDumper1" Value="دمپر فرم" />
+    <Key Name="mnuShell" Value="Shell URL" />
+    <Key Name="mnuClipboard" Value="ذخیره لینک " />
+    <Key Name="mnuFocusItem" Value="اهداف مورد تمرکز" />
+    <Key Name="mnuRowsCount" Value="مجموع ردیف ها:" />	
+    <Key Name="mnuAll" Value="همه" />	
+	<Key Name="btnGoToDumper" Value="برو به دامپر" />
+  </Section>
+  <Section Name="VectorsAdd">
+    <Key Name="OK_Button" Value="OK" />
+    <Key Name="Cancel_Button" Value="لغو" />
+  </Section>
+  <Section Name="MainForm.lvwXSS">
+    <Key Name="0" Value="بردار" />
+    <Key Name="1" Value="واژه کلیدی" />
+  </Section>
+  <Section Name="Analizer">
+    <Key Name="btnPasteURL" Value="Paste URL" />
+	<Key Name="btnBackward" Value="Backward [F7]" />
+	<Key Name="btnNext" Value="Next [F8]" />
+	<Key Name="btnClearForm" Value="Clear Form" />
+	<Key Name="btnGoToDumper" Value="Go To Dumper" />
+	<Key Name="chkFlowRedirects" Value="Follow HTTP Redirects" />
+	<Key Name="chkIE" Value="Use IE Browser Component (No proxy suport)" />
+	<Key Name="chkWafs" Value="Enable Wafs (Anti web firewall)" />
+	<Key Name="chkBypassProxy" Value="Disable proxy" />
+	<Key Name="grbLogin" Value="Network Credential (Login)" />
+	<Key Name="lblUser" Value="User Name" />
+	<Key Name="lblPassword" Value="Password" />
+  </Section>
+  <Section Name="Analizer.tbcMain">
+	<Key Name="0" Value="Web Browser" />
+	<Key Name="1" Value="Source Code" />
+	<Key Name="2" Value="Raw" />
+	<Key Name="3" Value="Setup" />
+  </Section>  
+  <Section Name="Analizer.Strings">
+    <Key Name="0" Value="Numeric" />
+    <Key Name="1" Value="Hex" />
+    <Key Name="2" Value="Null" />
+    <Key Name="3" Value="Custom" />
+	<Key Name="4" Value="Load [F5]" />
+	<Key Name="5" Value="Stop [F5]" />
+	<Key Name="6" Value="Connecting.." />
+	<Key Name="7" Value="Downloading.." />
+	<Key Name="8" Value="Worker Canceled" />
+	<Key Name="9" Value="Done" />
+  </Section>
+</SQLi_Dumper>

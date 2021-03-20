@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SQLi_Dumper>
+  <Section Name="MainForm.lvwStatistics">
+    <Key Name="0" Value="Description" />
+    <Key Name="1" Value="Valeur" />
+  </Section>
+  <Section Name="MainForm.tabFileInc">
+    <Key Name="0" Value="Linux" />
+    <Key Name="1" Value="Windows" />
+  </Section>
+  <Section Name="MainForm.tabSQLi">
+    <Key Name="0" Value="Général" />
+    <Key Name="1" Value="Unions Vecteurs " />
+    <Key Name="2" Value="Erreur Vecteurs " />
+  </Section>
+  <Section Name="MainForm.lvwWafs">
+    <Key Name="0" Value="Début" />
+    <Key Name="1" Value="Fin" />
+  </Section>
+  <Section Name="MainForm">
+	<Key Name="chkHideDork" Value="Cacher les Dorks" />
+	<Key Name="btnSearchFilter" Value="Filtrer par mot-clé" />
+	<Key Name="lblGuiStyle" Value="GUI Style" />
+    <Key Name="chkScanningBlackListProxy" Value="Enable Scanner Proxy IP Blacklist" />
+    <Key Name="lblAdvanced" Value="SI VOUS NE SAVEZ PAS CE QUE C'EST, NE CHANGEZ PAS !" />
+    <Key Name="lblRFIkeyword" Value="Mot-clé" />
+    <Key Name="lblRFIurl" Value="URL" />
+    <Key Name="btnToolsClean" Value="Nettoyer Forme" />
+    <Key Name="btnBase64ToText" Value=" Base64 en texte" />
+    <Key Name="btnTextToBase64" Value="Texte en Base64" />
+    <Key Name="btnURLDecondingToText" Value="URL Dec. En Texte" />
+    <Key Name="btnTextToURLEnconding" Value="Texte En URL Enc." />
+    <Key Name="butTextToSQLChar" Value="Texte En SQL Char" />
+    <Key Name="btnHexToText" Value="Hex En Texte" />
+    <Key Name="lblToolsConvertHexValue" Value="Valreur Hex" />
+    <Key Name="lblToolsConverSQLChar" Value="SQL char valeur" />
+    <Key Name="lblToolsConvertTextValue" Value="texte Valeur" />
+    <Key Name="btnConvertTextToHex" Value="Texte en Hex" />
+    <Key Name="btnPing" Value="Ping" />
+    <Key Name="btnResolve" Value="Résoudre" />
+    <Key Name="lblToolsIPAddress" Value="Adresse" />
+    <Key Name="lblToolsIP" Value="IP" />
+    <Key Name="lblToolsIPCountry" Value="Pays" />
+    <Key Name="lblToolsIPport" Value="Port:" />
+    <Key Name="btnSQLiNoInjectableSearchClear" Value="nettoyer" />
+    <Key Name="btnSQLiNoInjectableSearch" Value="Rechercher" />
+    <Key Name="btnSearchColumnStart" Value="Démarrer la recherche" />
+    <Key Name="chkSearchColumnAllDBs" Value="Toutes les bases de données" />
+    <Key Name="lblSearchColumnThreads" Value="Threads" />
+    <Key Name="btnSearchColumnPause" Value="Pause" />
+    <Key Name="btnSearchColumnStop" Value="Stop" />
+    <Key Name="btnSQLiSearchClear" Value="nettoyer" />
+    <Key Name="btnSQLiSearch" Value="Rechercher" />
+    <Key Name="btnStart" Value="Démarrer" />
+    <Key Name="btnPause" Value="Pause" />
+    <Key Name="btnStop" Value="Stop" />
+    <Key Name="btnUpdater" Value="Vérifier" />
+    <Key Name="btnSettingSave" Value="Save" />
+    <Key Name="btnSettingReLoad" Value="Rechargé" />
+    <Key Name="btnSettingReset" Value="Tout réinitialiser" />
+    <Key Name="lblHTTPdelay" Value="Délai d&apos;exploitation (ms)" />
+    <Key Name="lblHTTPretry" Value="Limite de réessai Requête" />
+    <Key Name="lblHTTPtimeout" Value="Connection Délai d&apos;attente (Secunds)" />
+    <Key Name="lblHTTPdelayIP" Value="Scanner Délai par IP (Proxies) (ms)" />
+    <Key Name="lblHTTPdelayHost" Value="Scanner Délai par hôte (ms)" />
+    <Key Name="lblAccept" Value="Accept" />
+    <Key Name="lblUserAgent" Value="User Agent" />
+    <Key Name="btnFileInclusaoSearchClear" Value="Nettoyer" />
+    <Key Name="btnFileInclusaoSearch" Value="Rechercher" />
+    <Key Name="btnSocksAppend" Value="Coller" />
+    <Key Name="btnSocksMyIP" Value="Inclure MonIP" />
+    <Key Name="btnSocksClear" Value="Nettoyer" />
+    <Key Name="btnSocksTest" Value="Test Proxies.." />
+    <Key Name="btnSocksNew" Value="Ajouter" />
+    <Key Name="lblMainStatus" Value="Prêt" />
+    <Key Name="mnuLWShell" Value="Shell" />
+	<Key Name="mnuLWReExploiter" Value="Re-Exploiter" />
+    <Key Name="mnuLWClipboard" Value="Presse-papiers" />
+    <Key Name="mnuLWAlexa" Value="Classement Alexa" />
+    <Key Name="mnuLWSelectAll" Value="Sélectionner tout" />
+    <Key Name="mnuLWGoNewDumper" Value="Nouveau Dumper.." />
+    <Key Name="mnuLWGoDumper" Value="Go Dumper.." />
+    <Key Name="mnuLWGoFileDumper" Value="Go Fichier Dumper" />
+    <Key Name="mnuLWExport" Value="Exporter" />
+    <Key Name="mnuLWTrash" Value="Déplacer à la Corbeille" />
+    <Key Name="mnuLWRemove" Value="Supprimer" />
+    <Key Name="mnuLWSelected" Value="Sélectionnés: " />
+    <Key Name="mnuSocksCheck" Value="Tout cocher" />
+    <Key Name="mnuSocksUnCheck" Value="Tout décocher" />
+    <Key Name="mnuSocksSelectAll" Value="Sélectionner tout" />
+    <Key Name="mnuSocksRemove" Value="Supprimer" />
+    <Key Name="mnuExcludeUrlWordsRemove" Value="Supprimer" />
+    <Key Name="mnuAboutClipboard" Value="Presse-papiers contact" />
+    <Key Name="mnuQueueShell" Value="Shell" />
+	<Key Name="mnuQueueAddURLs" Value="Ajouter URL's" />
+    <Key Name="mnuQueueClipboard" Value="Presse-papiers" />
+    <Key Name="mnuQueueSelectAll" Value="Tout sélectionner" />
+    <Key Name="mnuQueueRomove" Value="Supprimer" />
+    <Key Name="mnuQueueTrash" Value="Déplacer à la Corbeille" />
+    <Key Name="mnuTrashRefresh" Value="Charger dernier 2k" />
+    <Key Name="mnuTrashClippboard" Value="Presse-papiers" />
+    <Key Name="mnuTrashSelectAll" Value="Sélectionner tout" />
+    <Key Name="mnuTrashClearAll" Value="Tout nettoyer" />
+    <Key Name="mnuTrashRemove" Value="Supprimer" />
+    <Key Name="mnuTrashCount" Value="Total: URLs" />
+    <Key Name="mnuHttpLogClear" Value="Nettoyer" />
+    <Key Name="mnuHttpLogShell" Value="Shell" />
+    <Key Name="mnuHttpLogClipboard" Value="Presse-papiers" />
+    <Key Name="mnuHttpLogAutoScroll" Value="Défilement automatique" />
+    <Key Name="mnuHttpLogDock" Value="UnDock" />
+    <Key Name="mnuPathAdd" Value="Ajouter" />
+    <Key Name="mnuPathEdit" Value="Modifier" />
+    <Key Name="mnuPathRem" Value="Supprimer" />
+    <Key Name="ScannerDomainEdit" Value="Modifier" />
+    <Key Name="mnuSearchColumnRem" Value="Supprimer" />
+    <Key Name="mnuSearchColumnClear" Value="Nettoyer" />
+    <Key Name="mnuDownloadsClear" Value="Réinitialiser" />
+    <Key Name="grbLfiLinux" Value="LFI (Local File Inclusion)" />
+    <Key Name="grbSQLi" Value="SQLi (SQL Injection)" />
+    <Key Name="grbHTTPExploit" Value="HTTP Exploit Setup" />
+    <Key Name="chkSkipHttpStatus4xx" Value="passer HTTP Satus 4xx Erreur client" />
+    <Key Name="chkExploitIgnoreCookies" Value="Essayez aussi comme &quot;Ignorer les cookies de suivi WAF&quot;" />
+    <Key Name="chkLfiWindowsSkip" Value="Désactiver LFI sur Windows Server" />
+    <Key Name="grbFileIncWAFs" Value="WAF Bypass (LFI/RFI)" />
+    <Key Name="grbRFI" Value="RFI (Remote File Include)" />
+    <Key Name="grbScanner" Value="Domaine Scanner" />
+    <Key Name="grbToolsConvertEnc" Value="Encodage \ Décodage" />
+    <Key Name="chkGroupChar" Value="Groupe de Caractéres" />
+    <Key Name="grbToolsIP" Value="IP Pinger/Pays de l&apos;hôte" />
+    <Key Name="grbUpdater" Value="Mise à jour APP" />
+    <Key Name="chkUpdater" Value="Vérifier fréquence " />
+    <Key Name="grbAppSetthings" Value="Réglages" />
+    <Key Name="GroupBox4" Value="GUI Skin" />
+    <Key Name="chkGUIHotKey" Value="GUI Montrer/Cacher raccourci clavier (Alt+?)" />
+    <Key Name="chkSysTray" Value="Réduire dans la barre d&apos;état système" />
+    <Key Name="chkSkin" Value="Activer le thème de l&apos;application" />
+    <Key Name="grbExploithing" Value="Exploit Engine" />
+    <Key Name="GroupBox1" Value="HTTP Général" />
+    <Key Name="grbScannerURL" Value="Queue" />
+    <Key Name="grbHttpLog" Value="HTTP Débogueur" />
+    <Key Name="lblLFIPathCount" Value="Chemin Traversal Count" />
+    <Key Name="chkAnalizeMsAcessSybase" Value="Ajouter MsAccess et Sybase à Non-Injectables" />
+    <Key Name="chkAnalizerPostgreErrorUnion" Value="Vérifier Union dans Erreur PostgreSQL" />
+    <Key Name="chkAnalizerOracleErrorUnion" Value="Vérifier Union dans Erreur Oracle" />
+    <Key Name="chkAnalizeQueryComment" Value="DESACTIVER Ajouter un commentaire de requête '--' (String Inject)" />
+    <Key Name="chkAnalizerMySQLErrorUnion" Value="vérifier Union dans MySQL Error" />
+    <Key Name="chkAnalizerMSSQLErrorUnion" Value="vérifier Union dans MS SQL Error" />
+    <Key Name="chkAnalizeWAF" Value="Activer WAFs" />
+    <Key Name="lblSQLiExploitCode" Value="Exploit Code" />
+    <Key Name="lblSQLiUnionCount" Value="Nombre colonnes Union" />
+    <Key Name="lblSQLiUnionTo" Value="À" />
+    <Key Name="chkAnalizeMySQLReadWrite" Value="Vérifier le fichier MySQL en lecture/écriture" />
+    <Key Name="btnExcludeUrlWords" Value="Ajouter" />
+    <Key Name="lblSkipWordURL" Value="Sauter des mots" />
+    <Key Name="lblLanguage" Value="Langue" />
+    <Key Name="chkSearchColumn" Value="+" />
+    <Key Name="chkSearchColumn2" Value="+" />
+    <Key Name="chkSearchColumn3" Value="+" />
+    <Key Name="chkSearchColumn4" Value="+" />
+    <Key Name="GroupBox2" Value="Importer des injectables depuis SQLi Dumper 8.x" />
+    <Key Name="btnXmlImport8x" Value="Importation.." />
+    <Key Name="grbXSS" Value="XSS (Cross Site Scripting)" />
+  </Section>
+  <Section Name="MainForm.tabScanner">
+    <Key Name="0" Value="Domaine" />
+    <Key Name="1" Value="Liste noire URL" />
+  </Section>
+  <Section Name="MainForm.dtgSQLiNoInjectable">
+    <Key Name="0" Value="URL" />
+    <Key Name="1" Value="Type" />
+    <Key Name="2" Value="Pays" />
+    <Key Name="3" Value="Vérifié" />
+    <Key Name="4" Value="Commentaires" />
+  </Section>
+  <Section Name="MainForm.dtgSQLi">
+    <Key Name="0" Value="URL" />
+    <Key Name="1" Value="Type" />
+    <Key Name="2" Value="Version SQL" />
+    <Key Name="3" Value="Surligner" />
+    <Key Name="4" Value="Pays" />
+    <Key Name="5" Value="Recherche Colonne" />
+    <Key Name="6" Value="Dernière vérification" />
+	<Key Name="7" Value="Commentaires" />
+  </Section>
+  <Section Name="MainForm.dtgFileInclusao">
+    <Key Name="0" Value="URL" />
+    <Key Name="1" Value="Type" />
+    <Key Name="2" Value="Pays" />
+    <Key Name="3" Value="Vérifié" />
+	<Key Name="4" Value="Commentaires" />
+  </Section>
+  <Section Name="MainForm.dtgSocks">
+    <Key Name="0" Value="IP" />
+    <Key Name="1" Value="Type" />
+    <Key Name="2" Value="Utilisateur" />
+    <Key Name="3" Value="PWD" />
+    <Key Name="4" Value="Pays" />
+  </Section>
+  <Section Name="MainForm.lvwHttpLog">
+    <Key Name="0" Value="ID" />
+    <Key Name="1" Value="URL" />
+    <Key Name="2" Value="Taille" />
+    <Key Name="3" Value="écoulé" />
+    <Key Name="4" Value="Statut" />
+    <Key Name="5" Value="Proxy" />
+  </Section>
+  <Section Name="MainForm.twMain">
+    <Key Name="0" Value="Scanner" />
+    <Key Name="1" Value="SQL Injection" />
+    <Key Name="2" Value="Échec" />
+    <Key Name="3" Value="Data Dumper" />
+    <Key Name="4" Value="XSS\LFI\RFI" />
+    <Key Name="5" Value="Corbeille" />
+    <Key Name="6" Value="Liste Proxies" />
+    <Key Name="7" Value="Outils" />
+    <Key Name="8" Value="Login Finder" />
+    <Key Name="9" Value="Bloc-notes" />
+    <Key Name="10" Value="Réglages" />
+    <Key Name="11" Value="Avancée" />
+    <Key Name="12" Value="Statistiques" />
+    <Key Name="13" Value="A propos" />
+	<Key Name="14" Value="Queue" />
+	<Key Name="15" Value="Analyseur" />
+	<Key Name="16" Value="Générateur Dorks" />
+	<Key Name="17" Value="Principal" />	
+	<Key Name="18" Value="Convertir caractères" />
+  </Section>
+  <Section Name="MainForm.Strings">
+    <Key Name="0" Value="Bienvenue sur" />
+    <Key Name="1" Value="Worker est en cours d'exécution, fermer l&apos;application?" />
+    <Key Name="2" Value="Confirmer la sortie" />
+    <Key Name="3" Value="Veuillez sélectionner le moteur de recherche.." />
+    <Key Name="4" Value="S'il vous plaît, ajoutez la liste de dorks.." />
+    <Key Name="5" Value="Recherches dans les colonnes\tables est vide." />
+    <Key Name="6" Value="Recherches dans les colonnes\tables n&apos;est disponible que pour MySQL et MS SQL." />
+    <Key Name="7" Value="Recherche" />
+    <Key Name="8" Value="Colonnes:" />
+    <Key Name="9" Value="Tables:" />
+    <Key Name="10" Value="Initialisation.." />
+    <Key Name="11" Value="Chargement des paramètres.." />
+    <Key Name="12" Value="Chargement GUI.." />
+    <Key Name="13" Value="Chargement fichier:" />
+    <Key Name="14" Value="Ouvrir liste des URL" />
+    <Key Name="15" Value="Aperçu fichier" />
+    <Key Name="16" Value="worker annulé" />
+    <Key Name="17" Value="Veuillez patienter, chargement liste file d'attente.." />
+    <Key Name="18" Value="Travail.. Vérifiés:" />
+    <Key Name="19" Value="Travail.. Saut URLs.. à " />
+    <Key Name="20" Value="URL Fonctionnel:" />
+    <Key Name="21" Value="Veuillez patienter, chargement liste file d'attente.." />
+    <Key Name="22" Value="Recherche" />
+    <Key Name="23" Value="Veuillez patienter, finition threads.." />
+    <Key Name="24" Value="Vérifié:" />
+    <Key Name="25" Value="Worker terminé" />
+    <Key Name="26" Value="Résultat du scanner" />
+    <Key Name="27" Value="Worker terminé, Err:" />
+    <Key Name="28" Value="Balayage, Veuillez patienter.. URL's Ajouté:" />
+    <Key Name="29" Value="Exploitation, attendez s&apos;il vous plaît.," />
+    <Key Name="31" Value="Cacher arborescence" />
+    <Key Name="32" Value="Journal  HTTP" />
+    <Key Name="33" Value="Toujours" />
+    <Key Name="34" Value="Chaque semaine" />
+    <Key Name="35" Value="Chaque mois" />
+    <Key Name="36" Value="Nouvelle mise à jour disponible, version " />
+    <Key Name="37" Value="Vous voulez télécharger maintenant?" />
+    <Key Name="38" Value="Pas besoin de mise à jour." />
+    <Key Name="39" Value="Vitesse de téléchargement:" />
+    <Key Name="40" Value="Mise à jour terminée, veuillez redémarrer l&apos;application." />
+    <Key Name="41" Value="Échec de la mise à jour." />
+    <Key Name="42" Value="A V E R T I S S E M E N T" />
+    <Key Name="43" Value="SQLi Dumper (OUTIL DE SÉCURITÉ)" />
+    <Key Name="44" Value="SERVENT À TESTER ET À GÉRER VOS PROPRES SYSTÈMES." />
+    <Key Name="45" Value="L'UTILISATION SUR DES SYSTÈMES ÉTRANGERS SANS L'AUTORISATION DES PROPRIÉTAIRES EST INTERDITE PAR LA LOI!" />
+    <Key Name="46" Value="UTILISER À VOS PROPRES RISQUES!" />
+    <Key Name="47" Value="M E R C I" />
+    <Key Name="48" Value="Réglages sauvegardés.." />
+    <Key Name="49" Value="Réglages chargés.." />
+    <Key Name="50" Value="Pour réinitialiser tous les paramètres (excluant *.txt), il est nécessaire de redémarrer." />
+    <Key Name="51" Value="Vous voulez continuer?" />
+    <Key Name="52" Value="Contact copié dans le presse-papiers" />
+    <Key Name="53" Value="Edit WAF:" />
+    <Key Name="54" Value="Edit Chemin:" />
+    <Key Name="55" Value="Edit Vecteur:" />
+    <Key Name="56" Value="Test Ping Échec." />
+    <Key Name="57" Value="Test Ping réussi." />
+    <Key Name="58" Value="Erreur du résolveur IP, adresse invalide ou introuvable!" />
+    <Key Name="59" Value="URLs:" />
+    <Key Name="60" Value="Effacer toutes les corbeilles?" />
+    <Key Name="61" Value="Sélectionnés:" />
+    <Key Name="62" Value="Défilement automatique: Oui" />
+    <Key Name="63" Value="Défilement automatique: Non" />
+    <Key Name="64" Value="Ouvrir sur navigateur?" />
+    <Key Name="65" Value="Test Proxy" />
+    <Key Name="66" Value="Proxies vides." />
+    <Key Name="67" Value="les journaux ont été ignorés en raison de la vitesse supérieure à" />
+    <Key Name="68" Value="plage ms." />
+    <Key Name="69" Value="Connexion.." />
+    <Key Name="70" Value="Supprimer:" />
+    <Key Name="71" Value="Edit Domaine:" />
+    <Key Name="72" Value="URL&apos;s Chargé:" />
+    <Key Name="73" Value="Non pris en charge:" />
+    <Key Name="74" Value="Répété:" />
+    <Key Name="75" Value="Dans Corbeille:" />
+    <Key Name="76" Value="Dans SQLi:" />
+    <Key Name="77" Value="En échec:" />
+    <Key Name="78" Value="Inclusion dans fichier:" />
+    <Key Name="79" Value="Ajouté:" />
+    <Key Name="80" Value="Balayage, Veuillez patienter.. URL's Ajouté:" />
+    <Key Name="81" Value="Dorks:" />
+    <Key Name="82" Value="vérification chemin LFI:" />
+    <Key Name="83" Value="vérification RFI" />
+    <Key Name="84" Value="Fichier" />
+    <Key Name="85" Value="Écrire" />
+    <Key Name="86" Value="Lire" />
+    <Key Name="87" Value="-Échec-" />
+    <Key Name="88" Value="Échec de la configuration Collactions" />
+    <Key Name="89" Value="Nombre de lignes" />
+    <Key Name="90" Value="Chargement DB Actuel" />
+    <Key Name="91" Value="Recherche colonnes" />
+    <Key Name="92" Value="Nombre de lignes" />
+    <Key Name="93" Value="Correspondance dans" />
+    <Key Name="94" Value="Tables" />
+    <Key Name="95" Value="Dépassement de la limite de réessai" />
+    <Key Name="96" Value="Recherche table" />
+    <Key Name="97" Value="Chargement base de données actuelle" />
+    <Key Name="98" Value="Chargement DB" />
+    <Key Name="99" Value="Vérification des tables sur la base de données" />
+    <Key Name="100" Value="DB" />
+    <Key Name="101" Value="Table" />
+    <Key Name="102" Value="Threads" />
+    <Key Name="103" Value="Proxies" />
+    <Key Name="104" Value="Utilisation RAM" />
+    <Key Name="105" Value="RAM Pic d&apos;utilisation" />
+    <Key Name="106" Value="APP Temps fonctionnement" />
+    <Key Name="107" Value="Téléchargements" />
+    <Key Name="108" Value="Dumping" />
+    <Key Name="109" Value="Démarrer Scanner" />
+    <Key Name="110" Value="Démarrer Exploiter" />
+    <Key Name="111" Value="Recherche.." />
+    <Key Name="112" Value="Vecteur" />
+    <Key Name="113" Value="Ajouter vecteur" />
+    <Key Name="114" Value="Edit Vecteur: " />
+    <Key Name="115" Value="Vérification type de serveur web" />
+    <Key Name="116" Value="Vérification XSS: " />
+    <Key Name="117" Value="Détection type d&apos;exploit" />
+    <Key Name="118" Value="vérification de la version SQL" />
+    <Key Name="119" Value="vérification magic quotes" />
+    <Key Name="120" Value="vérification mysql write file: " />
+    <Key Name="121" Value="Essaie basé sur error" />
+    <Key Name="122" Value="Essaie basé sur union" />
+	<Key Name="123" Value="IP/Proxies liste bloquée pour les moteurs de recherche:" />
+	<Key Name="124" Value="Veillez ajouter de nouveaux proxies!" />
+	<Key Name="125" Value="Oui pour continuer, Non pour annuler" />
+	
+	<Key Name="126" Value="TOUT" />
+	<Key Name="127" Value="Session" />
+	<Key Name="128" Value="Aujourd&apos;hui" />
+	<Key Name="129" Value="Semaine" />
+	<Key Name="130" Value="Mois" />
+	<Key Name="131" Value="Trimestre" />
+	<Key Name="132" Value="> Trimestre" />
+  </Section>
+  <Section Name="Dumper.tbcMain">
+    <Key Name="0" Value="Schéma" />
+    <Key Name="1" Value="Requête" />
+    <Key Name="2" Value="Charge\Ecrire Fichier" />
+  </Section>
+  <Section Name="Dumper">
+    <Key Name="btnLoadDefautSettings" Value="Nettoyer Forme" />
+    <Key Name="btnLoadNewDumper" Value="Nouveau Dumper" />
+    <Key Name="lblHeaderValue" Value="Valeur:" />
+    <Key Name="lblHeaderName" Value="Nom:" />
+    <Key Name="lblInjectionPointMethod" Value="Méthode" />
+    <Key Name="lblInjectionPoint" Value="Point Injection:" />
+    <Key Name="lblPost" Value="POST" />
+    <Key Name="lblCookies" Value="Cookies" />
+    <Key Name="lblLoginUser" Value="NomUtilisateur" />
+    <Key Name="lblLoginPassword" Value="Mot de passe" />
+    <Key Name="lblDumperRetryColumn" Value="Colonne limite de réessai" />
+    <Key Name="lblDumperStartIndex" Value="Dump Index de début" />
+    <Key Name="lblDumperMaxRows" Value="lignes maximum" />
+    <Key Name="lblThreadDelay" Value="unique-Thread Delay  (ms)" />
+    <Key Name="lblThreadRetry" Value="unique-Thread Limite réessai" />
+    <Key Name="lblMultiThreadDelay" Value="Multi-Thread Délai  (ms)" />
+    <Key Name="lblMultiThreadRetry" Value="Multi-Thread Limite réessai" />
+    <Key Name="lblTimout" Value="Temps d&apos;attente (sec)" />
+    <Key Name="tsbSchemas_1" Value="Rafraîchir Dir.." />
+    <Key Name="tsbSchemas_0" Value="Charger session" />
+    <Key Name="tsbSchemas_2" Value="Supprimer session sélectionnée" />
+    <Key Name="btnServerInfo" Value="Obtenir informations serveur" />
+    <Key Name="tsbSchemas_3" Value="Enregistrer session" />
+    <Key Name="btnPasteURL" Value="Coller URL" />
+    <Key Name="mnuCountDBs" Value="Compter bases de données" />
+    <Key Name="mnuCountTables" Value="Compter Tables" />
+    <Key Name="mnuCountTablesAll" Value="Compter toutes les tables" />
+    <Key Name="mnuCountColumns" Value="Compter colonnes" />
+    <Key Name="mnuCountColumnsAll" Value="Compter toutes les colonnes" />
+    <Key Name="mnuCountRows" Value="Compter lignes" />
+    <Key Name="mnuCountRowsAll" Value="Compter toutes les lignes" />
+    <Key Name="mnuCopyDB" Value="Base de données Presse-papiers" />
+    <Key Name="mnuCopyColumn" Value="Presse-papiers Colonne" />
+    <Key Name="mnuCopyTable" Value="Presse-papiers Table" />
+    <Key Name="mnuCheckAllColumns" Value="Cocher toutes les colonnes" />
+    <Key Name="mnuUnCheckAllColumns" Value="Décocher toutes les colonnes" />
+    <Key Name="mnuCheckRevert" Value="Rétablir toutes les colonnes" />
+    <Key Name="mnuCopyAllNodes" Value="Presse-papiers Tous les nœuds" />
+    <Key Name="mnuCopyAllSchema" Value="Presse-papiers Tous les schémas" />
+    <Key Name="mnuClearNodes" Value="Effacer le nœud" />
+    <Key Name="mnuClearSchema" Value="Effacer tous les schémas" />
+    <Key Name="mnuRemDB" Value="Sup Base de données" />
+    <Key Name="mnuRemTable" Value="Sup Table" />
+    <Key Name="mnuRemColumn" Value="Sup Colonne" />
+    <Key Name="mnuAddDB" Value="Ajouter base de données" />
+    <Key Name="mnuAddTable" Value="Ajouter Table" />
+    <Key Name="mnuAddColumn" Value="Ajouter Colonne" />
+    <Key Name="mnuCollapseTree" Value="Fermer Arbre" />
+    <Key Name="mnuSortTree" Value="Trier Arbre" />
+    <Key Name="mnuConvHex" Value="Vers Hex" />
+    <Key Name="mnuConvChar" Value="Vers Char" />
+    <Key Name="mnuConvCharGroup" Value="Vers le groupe Char" />
+    <Key Name="mnuConvLEN" Value="LEN() OU LONGUEUR" />
+    <Key Name="mnuConvAddA" Value="ajouter encodé '%@%'" />
+    <Key Name="mnuPostgreSQL_ListUsers" Value="Liste utilisateurs" />
+    <Key Name="mnuPostgreSQL_Passwords" Value="Lister les mots de passe Hashes" />
+    <Key Name="mnuPostgreSQL_Join" Value="JOIN Example" />
+    <Key Name="mnuOracleListUsers" Value="Liste utilisateurs" />
+    <Key Name="mnuOracleHashes" Value="Liste Hashes mots de passe" />
+    <Key Name="mnuOracleJoin" Value="JOIN Example" />
+    <Key Name="mnuOracleHelp" Value="Aide" />
+    <Key Name="mnuSqlLogins" Value="Liste utilisateurs" />
+    <Key Name="mnuSqlIsAdmin" Value="Compte est sysadmin" />
+    <Key Name="mnuSQLJoin" Value="JOIN Example" />
+    <Key Name="mnuSQLHelp" Value="Aide" />
+    <Key Name="mnuUsers" Value="MySQL Users Passwords Hashes" />
+    <Key Name="mnuPrivileges" Value="Privilèges liste" />
+    <Key Name="mnuListDBA" Value="Liste des comptes DBA" />
+    <Key Name="mnuHostIP" Value="Nom d&apos;hôte, Data Dir" />
+    <Key Name="mnuExtraMySQLStuffs2" Value="User(), DataBase(), Version()" />
+    <Key Name="mnuLoadFile" Value="Load_File()" />
+    <Key Name="mnuIntoOutfile" Value="Dans Outfile()" />
+    <Key Name="mnuIntoDumpfile" Value="Dans Dumpfile()" />
+    <Key Name="mnuExtraMySQLStuffs" Value="Md5(), Sha1(), Password()" />
+    <Key Name="mnuCheckUser" Value="DataBase, Table, Colonne Contient %user%" />
+    <Key Name="mnuCheckPizza" Value="DataBase, Table, Colonne Contient Pizza" />
+    <Key Name="mnuJOIN" Value="JOIN Exemple" />
+    <Key Name="mnuLENGTH" Value="LONGUEUR((DATABASE())" />
+    <Key Name="mnuLimitXY" Value="Limite [x],[y]" />
+    <Key Name="mnuMySQLHelp" Value="Aide" />
+    <Key Name="grbInjectionPoint" Value="Point Injection:" />
+    <Key Name="chkAddHearder" Value="Ajouter un en-tête" />
+    <Key Name="grbLogin" Value="authentifiant réseau (Connexion)" />
+    <Key Name="chkReDumpFailed" Value="ReDump Echec de l&apos;index" />
+    <Key Name="chkClearListOnGet" Value="Nettoyer Schéma sur Get" />
+    <Key Name="chkDumpOrderBy" Value="Ajouter requête ORDER BY" />
+    <Key Name="chkDumpWhere" Value="Ajouter requête WHERE" />
+    <Key Name="chkDumpFieldByField" Value="Champ(s) Dump" />
+    <Key Name="grbMySQLCollactions" Value="Illegal Mix Of Collations" />
+    <Key Name="chkDumpIFNULL" Value="Dump Lignes IFNULL" />
+    <Key Name="chkDumpEncodedHex" Value="Dump Lignes Hex Encodé" />
+    <Key Name="chkAllInOneRequest" Value="Tout en un" />
+    <Key Name="grbMSSQLCollactions" Value="Mix Illegal De Collations" />
+    <Key Name="chkMSSQLCastAsChar" Value="Cast Comme" />
+    <Key Name="chkMSSQL_Latin1" Value="SQL_Latin1" />
+    <Key Name="grbOracleCollactions" Value="Mix Illegal de Collations" />
+    <Key Name="chkOracleCastAsChar" Value="Cast comme Char" />
+    <Key Name="chkHttpRedirect" Value="Suivre redirection HTTP" />
+    <Key Name="chkThreads" Value="Multi-Thread" />
+    <Key Name="grbWhere" Value="Où (Champ Valeur)" />
+    <Key Name="grbOrderBy" Value="Classer par (Champ ASC/DESC)" />
+    <Key Name="btnFiltersClear1" Value="Effacer requête" />
+    <Key Name="btnClearSchema" Value="Effacer le schéma" />
+    <Key Name="btnDataBases" Value="Obtenir Bases de données" />
+    <Key Name="btnTables" Value="Obtenir les Tables" />
+    <Key Name="btnColumns" Value="Obtenir les colonnes" />
+    <Key Name="btnColumnUp" Value="Déplacer la colonne vers le haut" />
+    <Key Name="btnColumnDown" Value="Déplacer la colonne vers le bas" />
+    <Key Name="btnDumpData" Value="Dump Données" />
+    <Key Name="lblSelect" Value="SELECT" />
+    <Key Name="lblFrom" Value="DE" />
+    <Key Name="btnDumpCustom" Value="Exécuter la requête" />
+    <Key Name="btnDefCustomQuery" Value="Modèle de requête par défaut" />
+    <Key Name="grbWriteFile" Value="Écriture fichier (Magic Quotes Activer sont nécessaires)" />
+    <Key Name="lblWritePath" Value="Chemin:" />
+    <Key Name="btnMySQLWriteFile" Value="Ecriture.." />
+    <Key Name="grbLoadFile" Value="Lire fichier" />
+    <Key Name="lblReadPath" Value="Chemin:" />
+    <Key Name="btnMySQLReadFile" Value="lecture.." />
+  </Section>
+  <Section Name="Dumper.Strings">
+    <Key Name="0" Value="Requête réussie" />
+    <Key Name="2" Value="Échoué" />
+    <Key Name="3" Value="Limite de réessai dépassée" />
+    <Key Name="4" Value="Annulé par l&apos;utilisateur" />
+    <Key Name="5" Value="Chargement veuillez patienter.." />
+    <Key Name="6" Value="Variable '[t]' introuvable, vérifier le point d'injection." />
+    <Key Name="7" Value="MySQL Version 4.x.x ne permet pas d&apos;exécuter la requête." />
+    <Key Name="8" Value="Lecture chemin d'accès vide." />
+    <Key Name="9" Value="Ecriture contexte de fichier vide." />
+    <Key Name="10" Value="Ecriture chemin d'accès vide." />
+    <Key Name="11" Value="Rôle non valable pour l&apos;instruction Sélectionner." />
+    <Key Name="12" Value="Requête SQL vide" />
+    <Key Name="13" Value="Vérifier la base de donnée(s)" />
+    <Key Name="14" Value="Vérifier les table(s)" />
+    <Key Name="15" Value="Vérifier la colonne(s)" />
+    <Key Name="16" Value="Ecriture du fichier fait, essayer load_file() sur ce chemin." />
+    <Key Name="17" Value="Load_file() succès." />
+    <Key Name="18" Value="Load_file() échoué.," />
+    <Key Name="19" Value="Manquer" />
+    <Key Name="20" Value="Ajouté" />
+    <Key Name="21" Value="Vérification des lignes affectées.." />
+    <Key Name="22" Value="lignes affectées non détecté" />
+    <Key Name="23" Value="Limite Maximum Dépassé" />
+    <Key Name="24" Value="Dumping index de lignes ayant échoué." />
+    <Key Name="25" Value="Fin de threads.." />
+    <Key Name="26" Value="Fin de threads [index de lignes échoué].." />
+    <Key Name="27" Value="Worker annulé" />
+    <Key Name="28" Value="Worker terminé" />
+    <Key Name="29" Value="Exécution de la requête." />
+    <Key Name="30" Value="Délai d'attente HTTP" />
+    <Key Name="31" Value="Données chargées avec succès, Count:" />
+    <Key Name="32" Value="Données non trouvées, Index:" />
+    <Key Name="33" Value="Bases de données chargées avec succès" />
+    <Key Name="34" Value="Tables chargées avec succès" />
+    <Key Name="35" Value="Colonnes chargées avec succès" />
+    <Key Name="36" Value="dumping colonne" />
+    <Key Name="37" Value="Dumping Nom de DB, Utilisateur et configuration automatique.." />
+    <Key Name="38" Value="dumping" />
+    <Key Name="39" Value="Vue normale" />
+    <Key Name="40" Value="Vue complète" />
+    <Key Name="41" Value="Tables:" />
+    <Key Name="42" Value="Colonnes:" />
+    <Key Name="43" Value="Nombre de tables:" />
+    <Key Name="44" Value="Nombre de colonnes:" />
+    <Key Name="45" Value="Base de données" />
+    <Key Name="46" Value="Table" />
+    <Key Name="47" Value="Colonne" />
+    <Key Name="48" Value="Entrez le nom" />
+    <Key Name="49" Value="n&apos;est pas un nom valide." />
+    <Key Name="50" Value="Nom déjà utilisé par une autre DataBase." />
+    <Key Name="51" Value="Nom déjà utilisé par une autre table." />
+    <Key Name="52" Value="Nom déjà utilisé par une autre colonne." />
+    <Key Name="53" Value="Le nom de fichier que vous avez entré existe déjà." />
+    <Key Name="54" Value="Appuyez sur «Oui» pour écraser ou sur «Non» pour annuler." />
+    <Key Name="55" Value="Schéma enregistré avec succès.." />
+    <Key Name="56" Value="Schéma chargé avec succès.." />
+    <Key Name="57" Value="Schéma supprimé avec succès.." />
+    <Key Name="58" Value="Supprimer schéma" />
+    <Key Name="59" Value="Entrez le nom du fichier" />
+    <Key Name="60" Value="Sauvegarder le schéma" />
+    <Key Name="61" Value="URL non valable." />
+    <Key Name="62" Value="Entrez la chaîne" />
+  </Section>
+  <Section Name="LoginFinder.ListView1">
+    <Key Name="0" Value="URL" />
+    <Key Name="1" Value="Statut" />
+    <Key Name="2" Value="Écoulé" />
+  </Section>
+  <Section Name="LoginFinder">
+    <Key Name="btnLoadDefautSettings" Value="Nettoyer Forme" />
+    <Key Name="Label14" Value="Valeur:" />
+    <Key Name="Label8" Value="Nom:" />
+    <Key Name="Label12" Value="Cookies" />
+    <Key Name="Label9" Value="Nom d'utilisateur" />
+    <Key Name="Label10" Value="Mot de passe" />
+    <Key Name="btnDictPath" Value="---" />
+    <Key Name="Label1" Value="Chemin du dictionnaire" />
+    <Key Name="Label4" Value="Web Apps" />
+    <Key Name="Label16" Value="Délai de requête (ms)" />
+    <Key Name="Label2" Value="Temps d&apos;attente (sec)" />
+    <Key Name="btnWorkerStart" Value="Début" />
+    <Key Name="btnWorkerPause" Value="Pause" />
+    <Key Name="btnWorkerStop" Value="Stop" />
+    <Key Name="btnPasteURL" Value="Coller URL" />
+    <Key Name="chkAddHearder" Value="Ajouter un en-tête" />
+    <Key Name="grbSetup_4" Value="authentifiant réseau (Connexion)" />
+    <Key Name="grbSetup_3" Value="Enveloppe de caractère" />
+    <Key Name="chkHttpRedirect" Value="Suivre redirection HTTP" />
+    <Key Name="chkThreads" Value="Multi-Thread" />
+    <Key Name="chkStopWhenDetects" Value="Stop le Worker si trouvé" />
+    <Key Name="chkWebApps" Value="Détection auto" />
+  </Section>
+  <Section Name="DumpGrid">
+    <Key Name="btnFullView" Value="Vue complète" />
+    <Key Name="btnAutoScroll" Value="Défilement auto" />
+    <Key Name="btnExpTXT" Value="Exporter les données" />
+    <Key Name="btnClipboard" Value="Presse-papiers" />
+    <Key Name="btnCloseGrid" Value="Fermer la grille" />
+    <Key Name="btnCloseAllButThis" Value="Fermer tout sauf ça" />
+    <Key Name="btnCloseAllGrids" Value="Fermer toutes les grilles" />
+    <Key Name="mnuClipboard" Value="Presse-papiers" />
+    <Key Name="mnuClipboardAll" Value="Presse-papiers Toutes les lignes" />
+    <Key Name="munClipboardCell" Value="Presse-papiers Cellule(s)" />
+  </Section>
+  <Section Name="DumpLoading">
+    <Key Name="tsbPause" Value="Pause" />
+    <Key Name="tsbStop" Value="Annuler" />
+  </Section>
+  <Section Name="frmDumpGridExporter">
+    <Key Name="OK_Button" Value="OK" />
+    <Key Name="Cancel_Button" Value="Sortir" />
+    <Key Name="lblStatus" Value="Prêt" />
+    <Key Name="mnuMoveUP" Value="Déplacer vers le haut" />
+    <Key Name="mnuMoveDown" Value="Déplacer vers le bas" />
+    <Key Name="mmnCheck" Value="Tout cocher" />
+    <Key Name="mmnUnCheck" Value="Tout décocher" />
+  </Section>
+  <Section Name="ProxyType">
+    <Key Name="btnOK" Value="OK" />
+  </Section>
+  <Section Name="NewSocks">
+    <Key Name="Label4" Value="Type" />
+    <Key Name="btnCancel" Value="Fermer" />
+    <Key Name="btnOK" Value="Ajouter" />
+    <Key Name="Label3" Value="Mot de passe" />
+    <Key Name="Label2" Value="Nom d&apos;utilisateur" />
+    <Key Name="Label1" Value="Port" />
+    <Key Name="Label16" Value="IP" />
+  </Section>
+  <Section Name="SocksCheck">
+    <Key Name="lblStatus" Value="Vérificateur Socks" />
+    <Key Name="Label2" Value="Délai d&apos;att" />
+    <Key Name="Label3" Value="Threads" />
+    <Key Name="btnStart" Value="Début" />
+    <Key Name="btnPause" Value="Pause" />
+    <Key Name="btnStop" Value="Stop" />
+    <Key Name="btnOK" Value="OK" />
+  </Section>
+  <Section Name="PathAdd">
+    <Key Name="OK_Button" Value="OK" />
+    <Key Name="Cancel_Button" Value="Annuler" />
+    <Key Name="Label1" Value="Mot-clé" />
+    <Key Name="Label10" Value="Chemin" />
+  </Section>
+  <Section Name="WafAdd">
+    <Key Name="OK_Button" Value="OK" />
+    <Key Name="Cancel_Button" Value="Annuler" />
+    <Key Name="Label1" Value="Fin" />
+    <Key Name="Label10" Value="Début" />
+  </Section>
+  <Section Name="LoginFinder.lvwResult">
+    <Key Name="0" Value="URL" />
+    <Key Name="1" Value="Statut" />
+    <Key Name="2" Value="Écoulée" />
+  </Section>
+  <Section Name="MainForm.lvwLFIpathLinux">
+    <Key Name="0" Value="Chemin" />
+    <Key Name="1" Value="Mot-clé" />
+  </Section>
+  <Section Name="MainForm.lvwLFIpathWin">
+    <Key Name="0" Value="Chemin" />
+    <Key Name="1" Value="Mot-clé" />
+  </Section>
+  <Section Name="MainForm.lvwScannerDomain">
+    <Key Name="0" Value="Hôte" />
+    <Key Name="1" Value="Domaine" />
+  </Section>
+  <Section Name="Exporter">
+    <Key Name="grbColumns" Value="Colonnes" />
+    <Key Name="OK_Button" Value="OK" />
+    <Key Name="Cancel_Button" Value="Sortir" />
+    <Key Name="grbDelimiter" Value="Délimiteur" />
+    <Key Name="rdbOpt2" Value="Personnalisé" />
+    <Key Name="rdbOpt1" Value="Caractères Tab" />
+    <Key Name="grbType" Value="Type de fichier" />
+    <Key Name="rdpType_3" Value="XML" />
+    <Key Name="rdpType_2" Value="HTML" />
+    <Key Name="rdpType_1" Value="TexteBrut" />
+  </Section>
+  <Section Name="OpenFilePreview">
+    <Key Name="Label1" Value="Start Line Index" />
+    <Key Name="btnOK" Value="Lancer Worker" />
+    <Key Name="btnCancel" Value="Annuler" />
+  </Section>
+  <Section Name="SearchColumn.lvwData">
+    <Key Name="0" Value="" />
+    <Key Name="1" Value="" />
+  </Section>
+  <Section Name="SearchColumn">
+    <Key Name="btnCopy" Value="Presse-papiers" />
+    <Key Name="btnSort" Value="Trier" />
+    <Key Name="ToolStripLabel1" Value="Min.. Lignes:" />
+    <Key Name="mnuDumper2" Value="Nouvelle instance Dumper" />
+    <Key Name="mnuDumper1" Value="Dumper Forme" />
+    <Key Name="mnuShell" Value="Shell URL" />
+    <Key Name="mnuClipboard" Value="Presse-papiers URL" />
+    <Key Name="mnuFocusItem" Value="Focus Élément de la grille" />
+    <Key Name="mnuRowsCount" Value="Lignes Total:" />	
+    <Key Name="mnuAll" Value="Tous" />	
+	<Key Name="btnGoToDumper" Value="Aller au Dumper" />	
+  </Section>
+  <Section Name="VectorsAdd">
+    <Key Name="OK_Button" Value="OK" />
+    <Key Name="Cancel_Button" Value="Annuler" />
+  </Section>
+  <Section Name="MainForm.lvwXSS">
+    <Key Name="0" Value="Vecteur" />
+    <Key Name="1" Value="Mot-clé" />
+  </Section>
+  <Section Name="Analizer">
+    <Key Name="btnPasteURL" Value="Coller URL" />
+	<Key Name="btnBackward" Value="arrière [F7]" />
+	<Key Name="btnNext" Value="Suivant [F8]" />
+	<Key Name="btnClearForm" Value="Nettoyer Forme" />
+	<Key Name="btnGoToDumper" Value="Aller au Dumper" />
+	<Key Name="chkFlowRedirects" Value="Suivre les redirections HTTP" />
+	<Key Name="chkIE" Value="Utiliser composant navigateur IE (Proxy non supporté)" />
+	<Key Name="chkWafs" Value="Activer Wafs (Pare-feu anti-web)" />
+	<Key Name="chkBypassProxy" Value="Désactiver proxy" />
+	<Key Name="grbLogin" Value="authentifiant réseau (Connexion)" />
+	<Key Name="lblUser" Value="Nom d&apos;utilisateur" />
+	<Key Name="lblPassword" Value="Mot de passe" />
+  </Section>
+  <Section Name="Analizer.tbcMain">
+	<Key Name="0" Value="Navigateur Web" />
+	<Key Name="1" Value="Code source" />
+	<Key Name="2" Value="Brut" />
+	<Key Name="3" Value="Configuration" />
+  </Section>  
+  <Section Name="Analizer.Strings">
+    <Key Name="0" Value="Numérique" />
+    <Key Name="1" Value="Hex" />
+    <Key Name="2" Value="Null" />
+    <Key Name="3" Value="Personnalisé" />
+	<Key Name="4" Value="Charger [F5]" />
+	<Key Name="5" Value="Stop [F5]" />
+	<Key Name="6" Value="Connexion.." />
+	<Key Name="7" Value="Téléchargement" />
+	<Key Name="8" Value="Worker Annulé" />
+	<Key Name="9" Value="Fait" />
+  </Section>
+</SQLi_Dumper>

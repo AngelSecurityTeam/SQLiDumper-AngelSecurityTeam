@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SQLi_Dumper>
+  <Section Name="MainForm.lvwStatistics">
+    <Key Name="0" Value="Описание" />
+    <Key Name="1" Value="Value" />
+  </Section>
+  <Section Name="MainForm.tabFileInc">
+    <Key Name="0" Value="Linux" />
+    <Key Name="1" Value="Windows" />
+  </Section>
+  <Section Name="MainForm.tabSQLi">
+    <Key Name="0" Value="Главное" />
+    <Key Name="1" Value="Unions Vectors " />
+    <Key Name="2" Value="Error Vectors " />
+  </Section>
+  <Section Name="MainForm.lvwWafs">
+    <Key Name="0" Value="Начало" />
+    <Key Name="1" Value="Окончание" />
+  </Section>
+  <Section Name="MainForm">
+	<Key Name="chkHideDork" Value="Спрятать Доркс" />
+	<Key Name="btnSearchFilter" Value="Фильтровать по ключевому слову" />
+	<Key Name="lblGuiStyle" Value="GUI Стиль" />
+    <Key Name="chkScanningBlackListProxy" Value="Включить черный список прокси-сервера сканера" />
+    <Key Name="lblAdvanced" Value="ЕСЛИ ВЫ НЕ ЗНАЕТЕ,ЧТО ЭТО,НЕ ИЗМЕНЯЙТЕ" />
+    <Key Name="lblRFIkeyword" Value="Ключевое слово" />
+    <Key Name="lblRFIurl" Value="URL" />
+    <Key Name="btnToolsClean" Value="Очистить форму" />
+    <Key Name="btnBase64ToText" Value=" Base64 в текс" />
+    <Key Name="btnTextToBase64" Value="Текст в Base64" />
+    <Key Name="btnURLDecondingToText" Value="URL-адрес перевод к тексту" />
+    <Key Name="btnTextToURLEnconding" Value="Текст в URL-адрес." />
+    <Key Name="butTextToSQLChar" Value="Текст в SQL-символ" />
+    <Key Name="btnHexToText" Value="Hex в текст" />
+    <Key Name="lblToolsConvertHexValue" Value="Hex value" />
+    <Key Name="lblToolsConverSQLChar" Value="SQL char value" />
+    <Key Name="lblToolsConvertTextValue" Value="Text value" />
+    <Key Name="btnConvertTextToHex" Value="Text to Hex" />
+    <Key Name="btnPing" Value="Пинг" />
+    <Key Name="btnResolve" Value="Разрешить" />
+    <Key Name="lblToolsIPAddress" Value="Адрес" />
+    <Key Name="lblToolsIP" Value="ИП" />
+    <Key Name="lblToolsIPCountry" Value="Страна" />
+    <Key Name="lblToolsIPport" Value="Порт:" />
+    <Key Name="btnSQLiNoInjectableSearchClear" Value="Очистить" />
+    <Key Name="btnSQLiNoInjectableSearch" Value="Искать" />
+    <Key Name="btnSearchColumnStart" Value="Начать поиск" />
+    <Key Name="chkSearchColumnAllDBs" Value="Все базы данных" />
+    <Key Name="lblSearchColumnThreads" Value="Потоки" />
+    <Key Name="btnSearchColumnPause" Value="Пауза" />
+    <Key Name="btnSearchColumnStop" Value="Остановить" />
+    <Key Name="btnSQLiSearchClear" Value="Очистить" />
+    <Key Name="btnSQLiSearch" Value="Поиск" />
+    <Key Name="btnStart" Value="Старт" />
+    <Key Name="btnPause" Value="Пауза" />
+    <Key Name="btnStop" Value="Стоп" />
+    <Key Name="btnUpdater" Value="Проверить" />
+    <Key Name="btnSettingSave" Value="Сохранить" />
+    <Key Name="btnSettingReLoad" Value="Перезагрузить" />
+    <Key Name="btnSettingReset" Value="Сбросить все" />
+    <Key Name="lblHTTPdelay" Value="Использование задержки (мс)" />
+    <Key Name="lblHTTPretry" Value="Повторная попытка запроса" />
+    <Key Name="lblHTTPtimeout" Value="Тайм-аут соединения" />
+    <Key Name="lblHTTPdelayIP" Value="Задержка сканера" />
+    <Key Name="lblAccept" Value="Принять" />
+    <Key Name="lblUserAgent" Value="Юзер агент" />
+    <Key Name="btnFileInclusaoSearchClear" Value="Очистить" />
+    <Key Name="btnFileInclusaoSearch" Value="Поиск" />
+    <Key Name="btnSocksAppend" Value="Apprend" />
+    <Key Name="btnSocksMyIP" Value="Показать мой IP" />
+    <Key Name="btnSocksClear" Value="Очистить" />
+    <Key Name="btnSocksTest" Value="Проверить прокси" />
+    <Key Name="btnSocksNew" Value="Добавить" />
+    <Key Name="lblMainStatus" Value="Готово" />
+    <Key Name="mnuLWShell" Value="Shell" />
+	<Key Name="mnuLWReExploiter" Value="Повторное нажатие" />
+    <Key Name="mnuLWClipboard" Value="Буфер обмена" />
+    <Key Name="mnuLWAlexa" Value="Alexa Rank" />
+    <Key Name="mnuLWSelectAll" Value="Выбрать все" />
+    <Key Name="mnuLWGoNewDumper" Value="Новый дампер .." />
+    <Key Name="mnuLWGoDumper" Value="Дамп" />
+    <Key Name="mnuLWGoFileDumper" Value="Перейти к файловому дамперу" />
+    <Key Name="mnuLWExport" Value="Экспорт" />
+    <Key Name="mnuLWTrash" Value="Переместить в корзину" />
+    <Key Name="mnuLWRemove" Value="Удалить" />
+    <Key Name="mnuLWSelected" Value="Выбрать: " />
+    <Key Name="mnuSocksCheck" Value="Проверить все" />
+    <Key Name="mnuSocksUnCheck" Value="Cбросить всё" />
+    <Key Name="mnuSocksSelectAll" Value="Выбрать все" />
+    <Key Name="mnuSocksRemove" Value="Удалить" />
+    <Key Name="mnuExcludeUrlWordsRemove" Value="Удалить" />
+    <Key Name="mnuAboutClipboard" Value="Clipboard my Contact" />
+    <Key Name="mnuQueueShell" Value="Shell" />
+    <Key Name="mnuQueueAddURLs" Value="Добавить URL-адрес" />
+    <Key Name="mnuQueueClipboard" Value="Буфер обмена" />
+    <Key Name="mnuQueueSelectAll" Value="Выбрать все" />
+    <Key Name="mnuQueueRomove" Value="Удалить" />
+    <Key Name="mnuQueueTrash" Value="В корзину" />
+    <Key Name="mnuTrashRefresh" Value="Загрузить последнии 2k" />
+    <Key Name="mnuTrashClippboard" Value="Буфер обмена" />
+    <Key Name="mnuTrashSelectAll" Value="Выбрать все" />
+    <Key Name="mnuTrashClearAll" Value="Сбросить все" />
+    <Key Name="mnuTrashRemove" Value="Удалить" />
+    <Key Name="mnuTrashCount" Value="Всего:URL-адресов" />
+    <Key Name="mnuHttpLogClear" Value="Очистить" />
+    <Key Name="mnuHttpLogShell" Value="Shell" />
+    <Key Name="mnuHttpLogClipboard" Value="Буфер обмена" />
+    <Key Name="mnuHttpLogAutoScroll" Value="Автопрокрутка" />
+    <Key Name="mnuHttpLogDock" Value="Разблокировать" />
+    <Key Name="mnuPathAdd" Value="Добавить" />
+    <Key Name="mnuPathEdit" Value="Изменить" />
+    <Key Name="mnuPathRem" Value="Удалить" />
+    <Key Name="ScannerDomainEdit" Value="Изменить" />
+    <Key Name="mnuSearchColumnRem" Value="Удалить" />
+    <Key Name="mnuSearchColumnClear" Value="Очистить" />
+    <Key Name="mnuDownloadsClear" Value="Сбросить" />
+    <Key Name="grbLfiLinux" Value="LFI (Включение локального файла)" />
+    <Key Name="grbSQLi" Value="SQLi (Внедрение SQL)" />
+    <Key Name="grbHTTPExploit" Value="HTTP Установка эксплойта" />
+    <Key Name="chkSkipHttpStatus4xx" Value="Пропустить ошибку клиента HTTP Status 4xx" />
+    <Key Name="chkExploitIgnoreCookies" Value="Попробуйте также как «Игнорировать отслеживание файлов cookie WAF»" />
+    <Key Name="chkLfiWindowsSkip" Value="Отключить LFI на Windows Server" />
+    <Key Name="grbFileIncWAFs" Value="Обход WAF (LFI / RFI)" />
+    <Key Name="grbRFI" Value="RFI (включение удаленного файла)" />
+    <Key Name="grbScanner" Value="Домен сканера" />
+    <Key Name="grbToolsConvertEnc" Value="Кодирование \ Декодирование" />
+    <Key Name="chkGroupChar" Value="Групповой" />
+    <Key Name="grbToolsIP" Value="IP Pinger / Host для страны" />
+    <Key Name="grbUpdater" Value="Обновление APP" />
+    <Key Name="chkUpdater" Value="Частота проверки " />
+    <Key Name="grbAppSetthings" Value="Настройки" />
+    <Key Name="GroupBox4" Value="Скины" />
+    <Key Name="chkGUIHotKey" Value="Показать / скрыть GUI (Alt +?)" />
+    <Key Name="chkSysTray" Value="Минимизировать в системный трей" />
+    <Key Name="chkSkin" Value="Включить скины" />
+    <Key Name="grbExploithing" Value="Эксплуатировать двигатель" />
+    <Key Name="GroupBox1" Value="Общий HTTP" />
+    <Key Name="grbScannerURL" Value="Очередь" />
+    <Key Name="grbHttpLog" Value="Отладчик HTTP" />
+    <Key Name="lblLFIPathCount" Value="Счетчик трассировки пути" />
+    <Key Name="btnExcludeUrlWords" Value="Добавить" />
+    <Key Name="lblSkipWordURL" Value="Пропустить слова" />
+    <Key Name="chkAnalizeMsAcessSybase" Value="Добавить Ms Access и Sybase в неинъекционные" />
+    <Key Name="chkAnalizerPostgreErrorUnion" Value="Проверьте союз в ошибке PostgreSQL" />
+    <Key Name="chkAnalizerOracleErrorUnion" Value="Проверьте соединение в Oracle Error" />
+    <Key Name="chkAnalizerMySQLErrorUnion" Value="Ошибка проверки соединения в MySQL" />
+    <Key Name="chkAnalizerMSSQLErrorUnion" Value="Проверка соединения в ошибке MS SQL" />
+    <Key Name="chkAnalizeWAF" Value="Включить WAF" />
+    <Key Name="lblSQLiExploitCode" Value="Код эксплойта" />
+    <Key Name="lblSQLiUnionCount" Value="Количество столбцов Союза" />
+    <Key Name="lblSQLiUnionTo" Value="К" />
+    <Key Name="chkAnalizeMySQLReadWrite" Value="Проверьте MySQL Read \ Write File" />
+    <Key Name="lblLanguage" Value="Язык" />	
+     <Key Name = "GroupBox2" Value = "Импорт инъекций из SQLi Dumper 8.x" />
+     <Key Name = "btnXmlImport8x" Value = "Импорт .." />
+     <Key Name = "grbXSS" Value = "XSS (Скрипт для нескольких сайтов)" />
+  </Section>
+  <Section Name="MainForm.lvwLFIpathLinux">
+    <Key Name="0" Value="Дорожка" />
+    <Key Name="1" Value="Ключевое слово" />
+  </Section>
+  <Section Name="MainForm.lvwLFIpathWin">
+    <Key Name="0" Value="Дорожка&#xD;&#xA;" />
+    <Key Name="1" Value="Ключевое слово" />
+  </Section>
+  <Section Name="MainForm.lvwScannerDomain">
+    <Key Name="0" Value="Host" />
+    <Key Name="1" Value="Домен" />
+  </Section>
+  <Section Name="MainForm.tabScanner">
+    <Key Name="0" Value="Поисковая система" />
+    <Key Name="1" Value="Черный список URL" />
+  </Section>
+  <Section Name="MainForm.dtgSQLiNoInjectable">
+    <Key Name="0" Value="URL" />
+    <Key Name="1" Value="Тип" />
+    <Key Name="2" Value="Страна" />
+    <Key Name="3" Value="Проверено" />
+	<Key Name="4" Value="Комментарии" />
+  </Section>
+  <Section Name="MainForm.dtgSQLi">
+    <Key Name="0" Value="URL" />
+    <Key Name="1" Value="Тип" />
+    <Key Name="2" Value="Версия SQL" />
+    <Key Name="3" Value="Выделить" />
+    <Key Name="4" Value="Страна" />
+    <Key Name="5" Value="Поиск колонки" />
+    <Key Name="6" Value="Последняя проверка" />
+	<Key Name="7" Value="Комментарии" />
+  </Section>
+  <Section Name="MainForm.dtgFileInclusao">
+    <Key Name="0" Value="URL" />
+    <Key Name="1" Value="Тип" />
+    <Key Name="2" Value="Страна" />
+    <Key Name="3" Value="Проверено" />
+	<Key Name="4" Value="Комментарии" />
+  </Section>
+  <Section Name="MainForm.dtgSocks">
+    <Key Name="0" Value="IP" />
+    <Key Name="1" Value="Тип" />
+    <Key Name="2" Value="Пользователь" />
+    <Key Name="3" Value="Пароль" />
+    <Key Name="4" Value="Страна" />
+  </Section>
+  <Section Name="MainForm.lvwHttpLog">
+    <Key Name="0" Value="ID" />
+    <Key Name="1" Value="URL" />
+    <Key Name="2" Value="Размер" />
+    <Key Name="3" Value="Счётчик" />
+    <Key Name="4" Value="Статус" />
+    <Key Name="5" Value="Прокси" />
+  </Section>
+  <Section Name="MainForm.twMain">
+    <Key Name="0" Value="Сканер" />
+    <Key Name="1" Value="SQL-инъекция" />
+    <Key Name="2" Value="Неудачный" />
+    <Key Name="3" Value="Дамп" />
+    <Key Name="4" Value="XSS\LFI\RFI" />
+    <Key Name="5" Value="Мусор" />
+    <Key Name="6" Value="Список прокси" />
+    <Key Name="7" Value="Инструменты" />
+    <Key Name="8" Value="Поиск админки" />
+    <Key Name="9" Value="Блокнот" />
+    <Key Name="10" Value="Настройки" />
+    <Key Name="11" Value="Дополнительно" />
+    <Key Name="12" Value="Статистика" />
+    <Key Name="13" Value="Справка" />
+	<Key Name="14" Value="Очередь" />
+	<Key Name="15" Value="Aнализатор" />
+	<Key Name="16" Value="Dorks Generator" />
+	<Key Name="17" Value="Главная" />
+	<Key Name="18" Value="Преобразование строк" />
+  </Section>
+  <Section Name="MainForm.Strings">
+    <Key Name="0" Value="Добро пожаловать в" />
+    <Key Name="1" Value="Дампер работает, закрыть приложение?"></Key>
+    <Key Name="2" Value="Подтвердить выход" />
+    <Key Name="3" Value="Пожалуйста, выберите поисковую машину .." />
+    <Key Name="4" Value="Пожалуйста, добавьте список dorks .." />
+    <Key Name="5" Value="Поисковые столбцы \ пустые таблицы." />
+    <Key Name="6" Value="Поисковые столбцы \ таблицы доступны только для MySQL и MS SQL." />
+    <Key Name="7" Value="Поиск" />
+    <Key Name="8" Value="Столбцы:" />
+    <Key Name="9" Value="Таблицы:" />
+    <Key Name="10" Value="Инициализация .." />
+    <Key Name="11" Value="Настройки загрузки .." />
+    <Key Name="12" Value="Загрузка GUI .." />
+    <Key Name="13" Value="Загрузка файла:" />
+    <Key Name="14" Value="Открыть список URL" />
+    <Key Name="15" Value="Предварительный файл" />
+    <Key Name="16" Value="Работа завершена" />
+    <Key Name="17" Value="Пожалуйста, ждите, загрузка списка.." />
+    <Key Name="18" Value="Работа .. Проверено:" />
+    <Key Name="19" Value="Работает .. Пропуск URL-адресов .. до " />
+    <Key Name="20" Value="Рабочие URL:" />
+    <Key Name="21" Value="Пожалуйста, ждите, загрузка списка.." />
+    <Key Name="22" Value="Поиск" />
+    <Key Name="23" Value="Пожалуйста, подождите, завершаю потоки .." />
+    <Key Name="24" Value="Проверено:" />
+    <Key Name="25" Value="Работа завершена" />
+    <Key Name="26" Value="Результат сканера" />
+    <Key Name="27" Value="Работа завершена, Err:" />
+    <Key Name="28" Value="Сканирование, пожалуйста подождите .. :" />
+    <Key Name="29" Value="Эксплуатация, пожалуйста, подождите," />
+    <Key Name="31" Value="Скрыть в трее" />
+    <Key Name="32" Value="HTTP-лог" />
+    <Key Name="33" Value="Всегда" />
+    <Key Name="34" Value="Каждую неделю" />
+    <Key Name="35" Value="Каждый месяц" />
+    <Key Name="36" Value="Доступно обновление, версия" />
+    <Key Name="37" Value="Вы хотите загрузить сейчас?" />
+    <Key Name="38" Value="Обновлений нет" />
+    <Key Name="39" Value="Скорость загрузки:" />
+    <Key Name="40" Value="Обновление завершено, перезапустите приложение." />
+    <Key Name="41" Value="Обновление не удалось." />
+    <Key Name="42" Value="D I S C L A I M E R" />
+    <Key Name="43" Value="SQLi Dumper (ИНСТРУМЕНТ БЕЗОПАСНОСТИ)" />
+    <Key Name="44" Value="ДЛЯ ТЕСТИРОВАНИЯ И УПРАВЛЕНИЯ ЦЕЛИ ВАШИХ СОБСТВЕННЫХ СИСТЕМ." />
+    <Key Name="45" Value="ИСПОЛЬЗОВАНИЕ ВНЕШНИХ СИСТЕМ БЕЗ ПОТРЕБИТЕЛЯ ВЛАДЕЛЬЦЕВ ЗАПРЕЩАЕТСЯ ЗАКОНОМ!" />
+    <Key Name="46" Value="ИСПОЛЬЗУЙТЕ НА СВОЙ РИСК!" />
+    <Key Name="47" Value="СПАСИБО" />
+    <Key Name="48" Value="Настройки сохранены .." />
+    <Key Name="49" Value="Настройки загружены .." />
+    <Key Name="50" Value="Чтобы сбросить все настройки (кроме * .txt), необходимо перезапустить." />
+    <Key Name="51" Value="Вы хотите продолжить?" />
+    <Key Name="52" Value="Контакт скопирован в буфер обмена" />
+    <Key Name="53" Value="Редактировать WAF:" />
+    <Key Name="54" Value="Изменить путь:" />
+    <Key Name="55" Value="Edit Vector:" />
+    <Key Name="56" Value="Тест Ping не выполнен." />
+    <Key Name="57" Value="Тест Ping завершен." />
+    <Key Name="58" Value="Ошибка распознавателя IP-адресов, неверный адрес или не найден!" />
+    <Key Name="59" Value="URLs:" />
+    <Key Name="60" Value="Очистить корзину?" />
+    <Key Name="61" Value="Выбрано:" />
+    <Key Name="62" Value="Автопрокрутка: Да" />
+    <Key Name="63" Value="Автопрокрутка: Нет" />
+    <Key Name="64" Value="Открыть в браузере?" />
+    <Key Name="65" Value="Проверка прокси" />
+    <Key Name="66" Value="Proxies empty." />
+    <Key Name="67" Value="журналы были пропущены из-за превышения скорости" />
+    <Key Name="68" Value="ms range." />
+    <Key Name="69" Value="Connecting.." />
+    <Key Name="70" Value="Удалить:" />
+    <Key Name="71" Value="Изменить домен:" />
+    <Key Name="72" Value="URL загружен:" />
+    <Key Name="73" Value="Unsupported:" />
+    <Key Name="74" Value="Повторить:" />
+    <Key Name="75" Value="В корзину:" />
+    <Key Name="76" Value="В SQLi:" />
+    <Key Name="77" Value="In Failed:" />
+    <Key Name="78" Value="In File Inclusao:" />
+    <Key Name="79" Value="Добавлено:" />
+    <Key Name="80" Value="Сканирование, пожалуйста подождите ..:" />
+    <Key Name="81" Value="Дорки:" />
+    <Key Name="82" Value="проверка LFI:" />
+    <Key Name="83" Value="проверка RFI" />
+    <Key Name="84" Value="Файл" />
+    <Key Name="85" Value="Написать" />
+    <Key Name="86" Value="Read" />
+    <Key Name="87" Value="- Сбой -" />
+    <Key Name="88" Value="Сбой установки" />
+    <Key Name="89" Value="Count Row" />
+    <Key Name="90" Value="Загрузка текущей БД" />
+    <Key Name="91" Value="Поисковая колонка" />
+    <Key Name="92" Value="Count rows" />
+    <Key Name="93" Value="Match in" />
+    <Key Name="94" Value="Таблицы" />
+    <Key Name="95" Value="Превышено ограничение на повтор" />
+    <Key Name="96" Value="Поиск таблицы" />
+    <Key Name="97" Value="Загрузка текущей БД" />
+    <Key Name="98" Value="Загрузка БД" />
+    <Key Name="99" Value="Проверка таблиц в БД" />
+    <Key Name="100" Value="DB" />
+    <Key Name="101" Value="Таблица" />
+    <Key Name="102" Value="Потоки" />
+    <Key Name="103" Value="Прокси" />
+    <Key Name="104" Value="Использование памяти" />
+    <Key Name="105" Value="Пик использования RAM" />
+    <Key Name="106" Value="Время работы" />
+    <Key Name="107" Value="Загрузки" />
+    <Key Name="108" Value="Дампинг" />
+    <Key Name="109" Value="Запустить сканер" />
+    <Key Name="110" Value="Запустить Exploiter" />
+    <Key Name="111" Value="Searching.." />
+	<Key Name="112" Value="Vector" />
+	<Key Name="113" Value="Добавить вектор" />
+	<Key Name="114" Value="Редактировать вектор:" />
+	<Key Name="115" Value="проверка типа веб-сервера" />
+	<Key Name="116" Value="проверка XSS:" />
+	<Key Name="117" Value="определение типа эксплойта" />
+	<Key Name="118" Value="проверка версии SQL" />
+	<Key Name="119" Value="проверка магических котировок" />
+	<Key Name="120" Value="проверка файла записи mysql:" />
+	<Key Name="121" Value="try error basead" />
+	<Key Name="122" Value="try union basead" />
+	<Key Name="123" Value="Список IP / Proxies заблокирован для поисковой системы:" />
+	<Key Name="124" Value="Пожалуйста, добавьте новые прокси!" />
+	<Key Name="125" Value="Да для продолжения, нет остановить" />
+	
+	<Key Name="126" Value="ВСЕ" />
+	<Key Name="127" Value="сессия" />
+	<Key Name="128" Value="Cегодня" />
+	<Key Name="129" Value="Неделю" />
+	<Key Name="130" Value="Месяц" />
+	<Key Name="131" Value="четверть" />
+	<Key Name="132" Value="> четверть" />	
+  </Section>
+  <Section Name="Dumper.tbcMain">
+    <Key Name="0" Value="Схема" />
+    <Key Name="1" Value="Запрос" />
+    <Key Name="2" Value="Загрузить \ Создать файл" />
+  </Section>
+  <Section Name="Dumper">
+    <Key Name="btnLoadDefautSettings" Value="Очистить форму" />
+    <Key Name="btnLoadNewDumper" Value="Новый Dumper" />
+    <Key Name="lblHeaderValue" Value="Value:" />
+    <Key Name="lblHeaderName" Value="Имя:" />
+    <Key Name="lblInjectionPointMethod" Value="Метод" />
+    <Key Name="lblInjectionPoint" Value="Инъекционная точка:" />
+    <Key Name="lblPost" Value="POST" />
+    <Key Name="lblCookies" Value="Cookies" />
+    <Key Name="lblLoginUser" Value="Имя пользователя" />
+    <Key Name="lblLoginPassword" Value="Пароль" />
+    <Key Name="lblDumperRetryColumn" Value="Колонка ограничения повтора" />
+    <Key Name="lblDumperStartIndex" Value="Начальный индекс дампа" />
+    <Key Name="lblDumperMaxRows" Value="Максимально строк" />
+    <Key Name="lblThreadDelay" Value="Задержка одного потока (мс)" />
+    <Key Name="lblThreadRetry" Value="Однократная попытка повторного запуска" />
+    <Key Name="lblMultiThreadDelay" Value="Задержка многопоточности (мс)" />
+    <Key Name="lblMultiThreadRetry" Value="Ограничение многопоточности" />
+    <Key Name="lblTimout" Value="Таймаут (sec)" />
+    <Key Name="tsbSchemas_1" Value="Обновить.." />
+    <Key Name="tsbSchemas_0" Value="Загрузить сеанс" />
+    <Key Name="tsbSchemas_2" Value="Удалить выбранную сессию" />
+    <Key Name="btnServerInfo" Value="Получить информацию о сервере" />
+    <Key Name="tsbSchemas_3" Value="Сохранить сеанс" />
+    <Key Name="btnPasteURL" Value="Вставить URL" />
+    <Key Name="mnuCountDBs" Value="Количество Databases" />
+    <Key Name="mnuCountTables" Value="Количество таблиц" />
+    <Key Name="mnuCountTablesAll" Value="Количество All Tables" />
+    <Key Name="mnuCountColumns" Value="Количество Columns" />
+    <Key Name="mnuCountColumnsAll" Value="Количество All Columns" />
+    <Key Name="mnuCountRows" Value="Количество Rows" />
+    <Key Name="mnuCountRowsAll" Value="Количество All Rows" />
+    <Key Name="mnuCopyDB" Value="Копировать Database" />
+    <Key Name="mnuCopyColumn" Value="Копировать Column" />
+    <Key Name="mnuCopyTable" Value="Копировать Table" />
+    <Key Name="mnuCheckAllColumns" Value="Отметить все Columns" />
+    <Key Name="mnuUnCheckAllColumns" Value="Снять все Columns" />
+    <Key Name="mnuCheckRevert" Value="Отменить All Columns" />
+    <Key Name="mnuCopyAllNodes" Value="Копировать All Nodes" />
+    <Key Name="mnuCopyAllSchema" Value="Копировать All Schema" />
+    <Key Name="mnuClearNodes" Value="Сбросить узел" />
+    <Key Name="mnuClearSchema" Value="Сбросить все схемы" />
+    <Key Name="mnuRemDB" Value="Удалить Database" />
+    <Key Name="mnuRemTable" Value="Удалить Table" />
+    <Key Name="mnuRemColumn" Value="Удалить Column" />
+    <Key Name="mnuAddDB" Value="Добавить базу данных" />
+    <Key Name="mnuAddTable" Value="Добавить таблицу" />
+    <Key Name="mnuAddColumn" Value="Добавить столбец" />
+    <Key Name="mnuCollapseTree" Value="Свернуть в трей" />
+    <Key Name="mnuSortTree" Value="Дерево сортировки" />
+    <Key Name="mnuConvHex" Value="To Hex" />
+    <Key Name="mnuConvChar" Value="To Char" />
+    <Key Name="mnuConvCharGroup" Value="К групповому символу" />
+    <Key Name="mnuConvLEN" Value="LEN() OR LENGHT" />
+    <Key Name="mnuConvAddA" Value="Добавить закодированный '% @%'" />
+    <Key Name="mnuPostgreSQL_ListUsers" Value="Список пользователей" />
+    <Key Name="mnuPostgreSQL_Passwords" Value="Список хэш паролей" />
+    <Key Name="mnuPostgreSQL_Join" Value="ПРИМЕР JOIN" />
+    <Key Name="mnuOracleListUsers" Value="Список пользователей" />
+    <Key Name="mnuOracleHashes" Value="Список хэш паролей" />
+    <Key Name="mnuOracleJoin" Value="ПРИСОЕДИНЯЙТЕСЬ Пример" />
+    <Key Name="mnuOracleHelp" Value="Справка" />
+    <Key Name="mnuSqlLogins" Value="Список пользователей" />
+    <Key Name="mnuSqlIsAdmin" Value="Учетная запись является sysadmin" />
+    <Key Name="mnuSQLJoin" Value="ПРИСОЕДИНЯЙТЕ пример" />
+    <Key Name="mnuSQLHelp" Value="Справка" />
+    <Key Name="mnuUsers" Value="MySQL хэш паролей пользователей" />
+    <Key Name="mnuPrivileges" Value="Список привилегий" />
+    <Key Name="mnuListDBA" Value="Список учетных записей DBA" />
+    <Key Name="mnuHostIP" Value="Имя хоста, каталог данных" />
+    <Key Name="mnuExtraMySQLStuffs2" Value="Пользователь (), DataBase (), Version ()" />
+    <Key Name="mnuLoadFile" Value="Load_File()" />
+    <Key Name="mnuIntoOutfile" Value="Into Outfile()" />
+    <Key Name="mnuIntoDumpfile" Value="Into Dumpfile()" />
+    <Key Name="mnuExtraMySQLStuffs" Value="Md5(), Sha1(), Password()" />
+    <Key Name="mnuCheckUser" Value="База данных, таблица, столбец содержит% user%" />
+    <Key Name="mnuCheckPizza" Value="База данных, таблица, столбец содержит пиццу" />
+    <Key Name="mnuJOIN" Value="ПРИСОЕДИНЯЙТЕ пример" />
+    <Key Name="mnuLENGTH" Value="LENGTH((DATABASE())" />
+    <Key Name="mnuLimitXY" Value="Предел [x], [y]" />
+    <Key Name="mnuMySQLHelp" Value="Справка" />
+    <Key Name="grbInjectionPoint" Value="Injection Point:" />
+    <Key Name="chkAddHearder" Value="Добавить заголовок" />
+    <Key Name="grbLogin" Value="Сетевое удостоверение (Логин)" />
+    <Key Name="chkReDumpFailed" Value="Неверный индекс ReDump" />
+    <Key Name="chkClearListOnGet" Value="Очистить схему в Get" />
+    <Key Name="chkDumpOrderBy" Value="Добавить запрос ORDER BY" />
+    <Key Name="chkDumpWhere" Value="Добавить запрос WHERE" />
+    <Key Name="chkDumpFieldByField" Value="Поле дампа" />
+    <Key Name="grbMySQLCollactions" Value="Недопустимое сочетание сортировки"></Key>
+    <Key Name="chkDumpIFNULL" Value="Строки дампа IFNULL" />
+    <Key Name="chkDumpEncodedHex" Value="Закодированные строки" />
+    <Key Name="chkAllInOneRequest" Value="Все в одном" />
+    <Key Name="grbMSSQLCollactions" Value="Недопустимое сочетание сортировки" />
+    <Key Name="chkMSSQLCastAsChar" Value="Присвоить как" />
+    <Key Name="chkMSSQL_Latin1" Value="SQL_Latin1" />
+    <Key Name="grbOracleCollactions" Value="Недопустимое сочетание сортировки" />
+    <Key Name="chkOracleCastAsChar" Value="Cast As Char" />
+    <Key Name="chkHttpRedirect" Value="HTTP Follow Redirect" />
+    <Key Name="chkThreads" Value="Многопоточность" />
+    <Key Name="grbWhere" Value="Где (Value поля)" />
+    <Key Name="grbOrderBy" Value="Заказ по (поле ASC / DESC)" />
+    <Key Name="btnFiltersClear1" Value="Очистить запрос" />
+    <Key Name="btnClearSchema" Value="Очистить схему" />
+    <Key Name="btnDataBases" Value="Получение баз данных" />
+    <Key Name="btnTables" Value="Получить таблицы" />
+    <Key Name="btnColumns" Value="Получить столбцы" />
+    <Key Name="btnColumnUp" Value="Переместить столбец вверх" />
+    <Key Name="btnColumnDown" Value="Переместить столбец вниз" />
+    <Key Name="btnDumpData" Value="Дамп данных" />
+    <Key Name="btnDumpCustom" Value="Выполнение запроса" />
+    <Key Name="btnDefCustomQuery" Value="Шаблон запроса по умолчанию" />
+    <Key Name="grbWriteFile" Value="Запись файла (требуется включение магических котировок)" />
+    <Key Name="lblWritePath" Value="Дорожка:" />
+    <Key Name="btnMySQLWriteFile" Value="Написать..&#xD;&#xA;" />
+    <Key Name="grbLoadFile" Value="Чтение файла" />
+    <Key Name="lblReadPath" Value="Дорожка:" />
+    <Key Name="btnMySQLReadFile" Value="Дорожка:" />
+  </Section>
+  <Section Name="Dumper.Strings">
+    <Key Name="0" Value="Запрос успешно выполнен" />
+    <Key Name="2" Value="Сбой" />
+    <Key Name="3" Value="предел повтора превышен" />
+    <Key Name="4" Value="отменено пользователем" />
+    <Key Name="5" Value="Загрузка подождите подождите .." />
+    <Key Name="6" Value="Переменная '[t]' не найдена, проверьте точку." />
+    <Key Name="7" Value="Версия MySQL 4.x.x не позволяет запускать запрос." />
+    <Key Name="8" Value="Считать путь к файлу пустым." />
+    <Key Name="9" Value="Записать контекст файла пустым." />
+    <Key Name="10" Value="Путь к файлу пуст." />
+    <Key Name="11" Value="Недопустимая роль." />
+    <Key Name="12" Value="SQL-запрос пуст." />
+    <Key Name="13" Value="Проверить базу данных" />
+    <Key Name="14" Value="Проверить таблицы " />
+    <Key Name="15" Value="Проверить столбец (ы)" />
+    <Key Name="16" Value="Записать файл, попробуйте загрузить файл () по этому пути." />
+    <Key Name="17" Value="Загрузка файла () успешно" />
+    <Key Name="18" Value="Ошибка загрузки_файла ()," />
+    <Key Name="19" Value="пропущено" />
+    <Key Name="20" Value="Добавлен" />
+    <Key Name="21" Value="Проверка поврежденных строк .." />
+    <Key Name="22" Value="Не обнаружены поврежденные строки" />
+    <Key Name="23" Value="Превышено максимальное предельное Value" />
+    <Key Name="24" Value="Сброс отказавшего индекса строки." />
+    <Key Name="25" Value="Завершение потоков.." />
+    <Key Name="26" Value="Завершение потоков [индекс неудачных строк].." />
+    <Key Name="27" Value="Работа отменена" />
+    <Key Name="28" Value="Работа завершена" />
+    <Key Name="29" Value="Выполнение запроса." />
+    <Key Name="30" Value="HTTP Timeout" />
+    <Key Name="31" Value="Данные загружены успешно, Count:" />
+    <Key Name="32" Value="Данные не найдены, Индекс:" />
+    <Key Name="33" Value="Базы данных загружены успешно" />
+    <Key Name="34" Value="Таблицы успешно загружены" />
+    <Key Name="35" Value="Столбцы успешно загружены" />
+    <Key Name="36" Value="dumping column" />
+    <Key Name="37" Value="Имя резервной БД, Пользователь и авто настройка .." />
+    <Key Name="38" Value="дампинг" />
+    <Key Name="39" Value="Обычный вид" />
+    <Key Name="40" Value="Полный просмотр" />
+    <Key Name="41" Value="Таблицы:" />
+    <Key Name="42" Value="Столбцы:" />
+    <Key Name="43" Value="Количество таблиц:" />
+    <Key Name="44" Value="Количество столбцов:" />
+    <Key Name="45" Value="База данных" />
+    <Key Name="46" Value="Таблица" />
+    <Key Name="47" Value="Столбец" />
+    <Key Name="48" Value="Введите имя" />
+    <Key Name="49" Value="не является допустимым именем." />
+    <Key Name="50" Value="имя, уже используемое другой DataBase." />
+    <Key Name="51" Value="имя, уже используемое другой таблицей." />
+    <Key Name="52" Value="имя, уже используемое другим столбцом." />
+    <Key Name="53" Value="Введенное имя файла уже существует." />
+    <Key Name="54" Value="Нажмите 'Да', чтобы перезаписать или 'Нет', чтобы отменить." />
+    <Key Name="55" Value="Схема успешно сохранена ..." />
+    <Key Name="56" Value="Схема загружена ..." />
+    <Key Name="57" Value="Схема успешно удалена.." />
+    <Key Name="58" Value="Удалить схему" />
+    <Key Name="59" Value="Введите имя файла" />
+    <Key Name="60" Value="Сохранить схему" />
+    <Key Name="61" Value="URL недействителен." />
+    <Key Name="62" Value="Введите строку" />
+  </Section>
+  <Section Name="LoginFinder.ListView1">
+    <Key Name="0" Value="URL" />
+    <Key Name="1" Value="Статус" />
+    <Key Name="2" Value="Прошло" />
+  </Section>
+  <Section Name="LoginFinder">
+    <Key Name="btnLoadDefautSettings" Value="Очистить форму" />
+    <Key Name="Label14" Value="Value:" />
+    <Key Name="Label8" Value="Name:" />
+    <Key Name="Label12" Value="Cookies" />
+    <Key Name="Label9" Value="Имя пользователя" />
+    <Key Name="Label10" Value="Пароль" />
+    <Key Name="btnDictPath" Value="---" />
+    <Key Name="Label1" Value="Путь к словарю" />
+    <Key Name="Label4" Value="Веб-приложение" />
+    <Key Name="Label16" Value="Задержка запроса (мс)" />
+    <Key Name="Label2" Value="Таймаут (сек)" />
+    <Key Name="btnWorkerStart" Value="Старт" />
+    <Key Name="btnWorkerPause" Value="Пауза" />
+    <Key Name="btnWorkerStop" Value="Стоп" />
+    <Key Name="btnPasteURL" Value="Вставить URL" />
+    <Key Name="chkAddHearder" Value="Добавить заголовок" />
+    <Key Name="grbSetup_4" Value="Сетевое удостоверение (Логин)" />
+    <Key Name="grbSetup_3" Value="Оболочка символов" />
+    <Key Name="chkHttpRedirect" Value="HTTP Follow Redirect" />
+    <Key Name="chkThreads" Value="Многопоточность" />
+    <Key Name="chkStopWhenDetects" Value="Конец, когда найдены" />
+    <Key Name="chkWebApps" Value="Автоматически определять" />
+  </Section>
+  <Section Name="DumpGrid">
+    <Key Name="btnFullView" Value="Полный просмотр" />
+    <Key Name="btnAutoScroll" Value="Автопрокрутка" />
+    <Key Name="btnExpTXT" Value="Экспорт данных" />
+    <Key Name="btnClipboard" Value="Копировать" />
+    <Key Name="btnCloseGrid" Value="Закрыть сетку" />
+    <Key Name="btnCloseAllButThis" Value="Закрыть все, кроме этого" />
+    <Key Name="btnCloseAllGrids" Value="Закрыть все Grids" />
+    <Key Name="mnuClipboard" Value="Копировать" />
+    <Key Name="mnuClipboardAll" Value="Копировать All Rows" />
+    <Key Name="munClipboardCell" Value="Копировать Cell(s)" />
+  </Section>
+  <Section Name="DumpLoading">
+    <Key Name="tsbPause" Value="Пауза" />
+    <Key Name="tsbStop" Value="Отмена" />
+  </Section>
+  <Section Name="frmDumpGridExporter">
+    <Key Name="OK_Button" Value="OK" />
+    <Key Name="Cancel_Button" Value="Выход" />
+    <Key Name="lblStatus" Value="Готово" />
+    <Key Name="mnuMoveUP" Value="Переместить вверх" />
+    <Key Name="mnuMoveDown" Value="Переместить вниз" />
+    <Key Name="mmnCheck" Value="Проверить все" />
+    <Key Name="mmnUnCheck" Value="Снять всё" />
+  </Section>
+  <Section Name="ProxyType">
+    <Key Name="btnOK" Value="OK" />
+  </Section>
+  <Section Name="NewSocks">
+    <Key Name="Label4" Value="Тип" />
+    <Key Name="btnCancel" Value="Закрыть" />
+    <Key Name="btnOK" Value="Добавить" />
+    <Key Name="Label3" Value="Пароль" />
+    <Key Name="Label2" Value="Имя пользователя" />
+    <Key Name="Label1" Value="Порт" />
+    <Key Name="Label16" Value="IP" />
+  </Section>
+  <Section Name="SocksCheck">
+    <Key Name="lblStatus" Value="Socks Checker" />
+    <Key Name="Label2" Value="Таймаут" />
+    <Key Name="Label3" Value="Потоки" />
+    <Key Name="btnStart" Value="Пуск" />
+    <Key Name="btnPause" Value="Пауза" />
+    <Key Name="btnStop" Value="Стоп" />
+    <Key Name="btnOK" Value="OK" />
+  </Section>
+  <Section Name="PathAdd">
+    <Key Name="OK_Button" Value="OK" />
+    <Key Name="Cancel_Button" Value="Отмена" />
+    <Key Name="Label1" Value="Keyword" />
+    <Key Name="Label10" Value="Path" />
+  </Section>
+  <Section Name="WafAdd">
+    <Key Name="OK_Button" Value="OK" />
+    <Key Name="Cancel_Button" Value="Отмена" />
+    <Key Name="Label1" Value="Окончание" />
+    <Key Name="Label10" Value="Начало" />
+  </Section>
+   <Section Name="Exporter">
+    <Key Name="grbColumns" Value="Столбцы" />
+    <Key Name="grbDelimiter" Value="Разделитель" />
+    <Key Name="rdbOpt2" Value="Пользовательский" />
+    <Key Name="rdbOpt1" Value="Вкладка" />
+    <Key Name="grbType" Value="Тип файла" />
+    <Key Name="rdpType_3" Value="XML" />
+    <Key Name="rdpType_2" Value="HTML" />
+    <Key Name="rdpType_1" Value="Простой текст" />
+  </Section>
+  <Section Name="MainForm.lvwXSS">
+    <Key Name="0" Value="Vector" />
+    <Key Name="1" Value="Ключевое слово" />
+  </Section>
+  <Section Name="Analizer">
+    <Key Name="btnPasteURL" Value="Вставить URL" />
+	<Key Name="btnBackward" Value="назад [F7]" />
+	<Key Name="btnNext" Value="следующий [F8]" />
+	<Key Name="btnClearForm" Value="Наглядная форма" />
+	<Key Name="btnGoToDumper" Value="Перейти на самосвал" />
+	<Key Name="chkFlowRedirects" Value="Следуйте HTTP перенаправления" />
+	<Key Name="chkIE" Value="Использовать компонент браузера IE (без поддержки прокси)" />
+	<Key Name="chkWafs" Value="Включить Wafs (Анти-брандмауэр)" />
+	<Key Name="chkBypassProxy" Value="Отключить прокси" />
+	<Key Name="grbLogin" Value="Сетевые учетные данные (логин)" />
+	<Key Name="lblUser" Value="Имя пользователя" />
+	<Key Name="lblPassword" Value="пароль" />
+  </Section>
+  <Section Name="Analizer.tbcMain">
+	<Key Name="0" Value="Веб-браузер" />
+	<Key Name="1" Value="Исходный код" />
+	<Key Name="2" Value="детали" />
+	<Key Name="3" Value="Настроить" />
+  </Section>  
+  <Section Name="Analizer.Strings">
+    <Key Name="0" Value="числовой" />
+    <Key Name="1" Value="Hex" />
+    <Key Name="2" Value="Null" />
+    <Key Name="3" Value="Custom" />
+	<Key Name="4" Value="нагрузка [F5]" />
+	<Key Name="5" Value="остановить [F5]" />
+	<Key Name="6" Value="соединительный.." />
+	<Key Name="7" Value="загрузка.." />
+	<Key Name="8" Value="Работник отменен" />
+	<Key Name="9" Value="Готово" />
+  </Section>
+  <Section Name="SearchColumn">
+    <Key Name="btnCopy" Value="буфер обмена" />
+    <Key Name="btnSort" Value="Сортировать" />
+    <Key Name="ToolStripLabel1" Value="Мин .. Строки:" />
+    <Key Name="mnuDumper2" Value="Новый экземпляр Dumper" />
+    <Key Name="mnuDumper1" Value="Форма самосвала" />
+    <Key Name="mnuShell" Value="URL оболочки" />
+    <Key Name="mnuClipboard" Value="URL буфера обмена" />
+    <Key Name="mnuFocusItem" Value="Фокусная сетка" />
+    <Key Name="mnuRowsCount" Value="Всего строк:" />
+    <Key Name="mnuAll" Value="Все" />
+	<Key Name="btnGoToDumper" Value="Перейти на самосвал" />
+  </Section>  
+</SQLi_Dumper>
